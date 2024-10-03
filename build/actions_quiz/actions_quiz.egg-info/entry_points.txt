@@ -1,0 +1,4 @@
+[console_scripts]
+action_client = actions_quiz.action_client:main
+action_server = actions_quiz.action_server:main
+

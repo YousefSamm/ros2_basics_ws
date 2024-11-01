@@ -1,0 +1,38 @@
+[3.371s] Invoking command in '/home/user/ros2_ws/src/topics_quiz': PYTHONPATH=/home/user/ros2_ws/build/topics_quiz/prefix_override:/home/user/ros2_ws/install/topics_quiz/lib/python3.10/site-packages:${PYTHONPATH} _=/usr/bin/env /usr/bin/python3 setup.py egg_info --egg-base ../../build/topics_quiz build --build-base /home/user/ros2_ws/build/topics_quiz/build install --record /home/user/ros2_ws/build/topics_quiz/install.log --single-version-externally-managed
+[3.982s] running egg_info
+[3.982s] creating ../../build/topics_quiz/topics_quiz.egg-info
+[3.985s] writing ../../build/topics_quiz/topics_quiz.egg-info/PKG-INFO
+[3.985s] writing dependency_links to ../../build/topics_quiz/topics_quiz.egg-info/dependency_links.txt
+[3.985s] writing entry points to ../../build/topics_quiz/topics_quiz.egg-info/entry_points.txt
+[3.985s] writing requirements to ../../build/topics_quiz/topics_quiz.egg-info/requires.txt
+[3.986s] writing top-level names to ../../build/topics_quiz/topics_quiz.egg-info/top_level.txt
+[3.986s] writing manifest file '../../build/topics_quiz/topics_quiz.egg-info/SOURCES.txt'
+[3.986s] reading manifest file '../../build/topics_quiz/topics_quiz.egg-info/SOURCES.txt'
+[3.986s] writing manifest file '../../build/topics_quiz/topics_quiz.egg-info/SOURCES.txt'
+[3.986s] running build
+[3.986s] running build_py
+[3.987s] creating /home/user/ros2_ws/build/topics_quiz/build
+[3.987s] creating /home/user/ros2_ws/build/topics_quiz/build/lib
+[3.987s] creating /home/user/ros2_ws/build/topics_quiz/build/lib/topics_quiz
+[3.987s] copying topics_quiz/topics_quiz_node.py -> /home/user/ros2_ws/build/topics_quiz/build/lib/topics_quiz
+[3.987s] copying topics_quiz/__init__.py -> /home/user/ros2_ws/build/topics_quiz/build/lib/topics_quiz
+[3.987s] running install
+[3.987s] running install_lib
+[3.987s] creating /home/user/ros2_ws/install/topics_quiz/lib/python3.10/site-packages/topics_quiz
+[3.987s] copying /home/user/ros2_ws/build/topics_quiz/build/lib/topics_quiz/topics_quiz_node.py -> /home/user/ros2_ws/install/topics_quiz/lib/python3.10/site-packages/topics_quiz
+[3.987s] copying /home/user/ros2_ws/build/topics_quiz/build/lib/topics_quiz/__init__.py -> /home/user/ros2_ws/install/topics_quiz/lib/python3.10/site-packages/topics_quiz
+[3.987s] byte-compiling /home/user/ros2_ws/install/topics_quiz/lib/python3.10/site-packages/topics_quiz/topics_quiz_node.py to topics_quiz_node.cpython-310.pyc
+[3.990s] byte-compiling /home/user/ros2_ws/install/topics_quiz/lib/python3.10/site-packages/topics_quiz/__init__.py to __init__.cpython-310.pyc
+[3.990s] running install_data
+[3.990s] creating /home/user/ros2_ws/install/topics_quiz/share/ament_index
+[3.990s] creating /home/user/ros2_ws/install/topics_quiz/share/ament_index/resource_index
+[3.990s] creating /home/user/ros2_ws/install/topics_quiz/share/ament_index/resource_index/packages
+[3.990s] copying resource/topics_quiz -> /home/user/ros2_ws/install/topics_quiz/share/ament_index/resource_index/packages
+[3.991s] copying package.xml -> /home/user/ros2_ws/install/topics_quiz/share/topics_quiz
+[3.991s] copying launch/topics_quiz.launch.py -> /home/user/ros2_ws/install/topics_quiz/share/topics_quiz
+[3.991s] running install_egg_info
+[3.991s] Copying ../../build/topics_quiz/topics_quiz.egg-info to /home/user/ros2_ws/install/topics_quiz/lib/python3.10/site-packages/topics_quiz-0.0.0-py3.10.egg-info
+[3.991s] running install_scripts
+[4.029s] Installing topics_quiz_node script to /home/user/ros2_ws/install/topics_quiz/lib/topics_quiz
+[4.029s] writing list of installed files to '/home/user/ros2_ws/build/topics_quiz/install.log'
+[4.086s] Invoked command in '/home/user/ros2_ws/src/topics_quiz' returned '0': PYTHONPATH=/home/user/ros2_ws/build/topics_quiz/prefix_override:/home/user/ros2_ws/install/topics_quiz/lib/python3.10/site-packages:${PYTHONPATH} _=/usr/bin/env /usr/bin/python3 setup.py egg_info --egg-base ../../build/topics_quiz build --build-base /home/user/ros2_ws/build/topics_quiz/build install --record /home/user/ros2_ws/build/topics_quiz/install.log --single-version-externally-managed

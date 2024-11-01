@@ -1,0 +1,22 @@
+[0.000000] (-) TimerEvent: {}
+[0.001449] (-) JobUnselected: {'identifier': 'actions_quiz'}
+[0.001562] (-) JobUnselected: {'identifier': 'actions_quiz_msg'}
+[0.001613] (-) JobUnselected: {'identifier': 'basics_ros2_multithreading'}
+[0.001648] (-) JobUnselected: {'identifier': 'client_pkg'}
+[0.001676] (-) JobUnselected: {'identifier': 'custom_interfaces'}
+[0.001702] (-) JobUnselected: {'identifier': 'example36_pkg'}
+[0.001729] (-) JobUnselected: {'identifier': 'exercise31_pkg'}
+[0.001764] (-) JobUnselected: {'identifier': 'exercise42_pkg'}
+[0.001799] (-) JobUnselected: {'identifier': 'logs_test'}
+[0.001833] (-) JobUnselected: {'identifier': 'movement_pkg'}
+[0.001867] (-) JobUnselected: {'identifier': 'my_action_client'}
+[0.001901] (-) JobUnselected: {'identifier': 'my_action_server'}
+[0.001934] (-) JobUnselected: {'identifier': 'my_package'}
+[0.001969] (-) JobUnselected: {'identifier': 'publisher_pkg'}
+[0.002002] (-) JobUnselected: {'identifier': 'services_quiz_srv'}
+[0.002041] (-) JobUnselected: {'identifier': 'subscriber_pkg'}
+[0.002075] (-) JobUnselected: {'identifier': 'topics_quiz'}
+[0.002115] (services_quiz) JobQueued: {'identifier': 'services_quiz', 'dependencies': OrderedDict([('services_quiz_srv', '/home/user/ros2_ws/install/services_quiz_srv')])}
+[0.002790] (services_quiz) JobStarted: {'identifier': 'services_quiz'}
+[0.040255] (services_quiz) JobEnded: {'identifier': 'services_quiz', 'rc': 1}
+[0.050839] (-) EventReactorShutdown: {}

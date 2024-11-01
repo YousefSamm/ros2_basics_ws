@@ -1,0 +1,4 @@
+[console_scripts]
+quiz_client = services_quiz.services_quiz_client:main
+quiz_server = services_quiz.services_quiz_server:main
+

@@ -1,0 +1,21 @@
+[4.499s] Invoking command in '/home/user/ros2_ws/src/logs_test': PYTHONPATH=/home/user/ros2_ws/build/logs_test/prefix_override:/home/user/ros2_ws/install/logs_test/lib/python3.10/site-packages:${PYTHONPATH} _=/usr/bin/env /usr/bin/python3 setup.py egg_info --egg-base ../../build/logs_test build --build-base /home/user/ros2_ws/build/logs_test/build install --record /home/user/ros2_ws/build/logs_test/install.log --single-version-externally-managed
+[5.538s] running egg_info
+[5.539s] writing ../../build/logs_test/logs_test.egg-info/PKG-INFO
+[5.539s] writing dependency_links to ../../build/logs_test/logs_test.egg-info/dependency_links.txt
+[5.540s] writing entry points to ../../build/logs_test/logs_test.egg-info/entry_points.txt
+[5.540s] writing requirements to ../../build/logs_test/logs_test.egg-info/requires.txt
+[5.540s] writing top-level names to ../../build/logs_test/logs_test.egg-info/top_level.txt
+[5.542s] reading manifest file '../../build/logs_test/logs_test.egg-info/SOURCES.txt'
+[5.543s] writing manifest file '../../build/logs_test/logs_test.egg-info/SOURCES.txt'
+[5.543s] running build
+[5.543s] running build_py
+[5.544s] running install
+[5.545s] running install_lib
+[5.546s] running install_data
+[5.547s] running install_egg_info
+[5.550s] removing '/home/user/ros2_ws/install/logs_test/lib/python3.10/site-packages/logs_test-0.0.0-py3.10.egg-info' (and everything under it)
+[5.550s] Copying ../../build/logs_test/logs_test.egg-info to /home/user/ros2_ws/install/logs_test/lib/python3.10/site-packages/logs_test-0.0.0-py3.10.egg-info
+[5.556s] running install_scripts
+[5.636s] Installing logger_example script to /home/user/ros2_ws/install/logs_test/lib/logs_test
+[5.637s] writing list of installed files to '/home/user/ros2_ws/build/logs_test/install.log'
+[6.866s] Invoked command in '/home/user/ros2_ws/src/logs_test' returned '0': PYTHONPATH=/home/user/ros2_ws/build/logs_test/prefix_override:/home/user/ros2_ws/install/logs_test/lib/python3.10/site-packages:${PYTHONPATH} _=/usr/bin/env /usr/bin/python3 setup.py egg_info --egg-base ../../build/logs_test build --build-base /home/user/ros2_ws/build/logs_test/build install --record /home/user/ros2_ws/build/logs_test/install.log --single-version-externally-managed

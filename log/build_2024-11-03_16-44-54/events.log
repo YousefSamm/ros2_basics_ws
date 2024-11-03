@@ -1,0 +1,866 @@
+[0.000000] (-) TimerEvent: {}
+[0.002091] (-) JobUnselected: {'identifier': 'actions_quiz'}
+[0.002142] (-) JobUnselected: {'identifier': 'actions_quiz_msg'}
+[0.002169] (-) JobUnselected: {'identifier': 'basics_ros2_multithreading'}
+[0.002193] (-) JobUnselected: {'identifier': 'client_pkg'}
+[0.002216] (-) JobUnselected: {'identifier': 'example36_pkg'}
+[0.002237] (-) JobUnselected: {'identifier': 'exercise31_pkg'}
+[0.002259] (-) JobUnselected: {'identifier': 'exercise42_pkg'}
+[0.002285] (-) JobUnselected: {'identifier': 'logs_test'}
+[0.002307] (-) JobUnselected: {'identifier': 'mars_rover_tasks'}
+[0.002354] (-) JobUnselected: {'identifier': 'movement_pkg'}
+[0.002371] (-) JobUnselected: {'identifier': 'my_action_client'}
+[0.002385] (-) JobUnselected: {'identifier': 'my_action_server'}
+[0.002400] (-) JobUnselected: {'identifier': 'my_package'}
+[0.002414] (-) JobUnselected: {'identifier': 'publisher_pkg'}
+[0.002429] (-) JobUnselected: {'identifier': 'services_quiz'}
+[0.002451] (-) JobUnselected: {'identifier': 'services_quiz_srv'}
+[0.002466] (-) JobUnselected: {'identifier': 'subscriber_pkg'}
+[0.002480] (-) JobUnselected: {'identifier': 'topics_quiz'}
+[0.002501] (custom_interfaces) JobQueued: {'identifier': 'custom_interfaces', 'dependencies': OrderedDict()}
+[0.002522] (custom_interfaces) JobStarted: {'identifier': 'custom_interfaces'}
+[0.099038] (custom_interfaces) JobProgress: {'identifier': 'custom_interfaces', 'progress': 'cmake'}
+[0.099144] (-) TimerEvent: {}
+[0.099314] (custom_interfaces) Command: {'cmd': ['/usr/bin/cmake', '/home/user/ros2_ws/src/custom_interfaces', '-DCMAKE_INSTALL_PREFIX=/home/user/ros2_ws/install/custom_interfaces'], 'cwd': '/home/user/ros2_ws/build/custom_interfaces', 'env': OrderedDict([('ROS_VERSION', '2'), ('NVIDIA_VISIBLE_DEVICES', 'all'), ('GAZEBO_MASTER_URI', 'http://2_simulation:11345'), ('PKG_CONFIG_PATH', ':/opt/ros/humble/lib/pkgconfig:/opt/ros/humble/lib/x86_64-linux-gnu/pkgconfig:/opt/ros/humble/lib/pkgconfig:/opt/ros/humble/lib/x86_64-linux-gnu/pkgconfig'), ('ROS_PYTHON_VERSION', '3'), ('HOSTNAME', '2_xterm'), ('PWD', '/home/user/ros2_ws/build/custom_interfaces'), ('PORT', '4000'), ('NVIDIA_DRIVER_CAPABILITIES', 'all'), ('ROS_IP', ''), ('HOME', '/home/user'), ('GAZEBO_PLUGIN_PATH', '/usr/lib/x86_64-linux-gnu/gazebo-11/plugins:/usr/lib/x86_64-linux-gnu/gazebo-11/plugins:'), ('LANG', 'en_US.UTF-8'), ('GAZEBO_MODEL_DATABASE_URI', 'http://models.gazebosim.org'), ('LS_COLORS', 'rs=0:di=01;34:ln=01;36:mh=00:pi=40;33:so=01;35:do=01;35:bd=40;33;01:cd=40;33;01:or=40;31;01:mi=00:su=37;41:sg=30;43:ca=30;41:tw=30;42:ow=34;42:st=37;44:ex=01;32:*.tar=01;31:*.tgz=01;31:*.arc=01;31:*.arj=01;31:*.taz=01;31:*.lha=01;31:*.lz4=01;31:*.lzh=01;31:*.lzma=01;31:*.tlz=01;31:*.txz=01;31:*.tzo=01;31:*.t7z=01;31:*.zip=01;31:*.z=01;31:*.dz=01;31:*.gz=01;31:*.lrz=01;31:*.lz=01;31:*.lzo=01;31:*.xz=01;31:*.zst=01;31:*.tzst=01;31:*.bz2=01;31:*.bz=01;31:*.tbz=01;31:*.tbz2=01;31:*.tz=01;31:*.deb=01;31:*.rpm=01;31:*.jar=01;31:*.war=01;31:*.ear=01;31:*.sar=01;31:*.rar=01;31:*.alz=01;31:*.ace=01;31:*.zoo=01;31:*.cpio=01;31:*.7z=01;31:*.rz=01;31:*.cab=01;31:*.wim=01;31:*.swm=01;31:*.dwm=01;31:*.esd=01;31:*.jpg=01;35:*.jpeg=01;35:*.mjpg=01;35:*.mjpeg=01;35:*.gif=01;35:*.bmp=01;35:*.pbm=01;35:*.pgm=01;35:*.ppm=01;35:*.tga=01;35:*.xbm=01;35:*.xpm=01;35:*.tif=01;35:*.tiff=01;35:*.png=01;35:*.svg=01;35:*.svgz=01;35:*.mng=01;35:*.pcx=01;35:*.mov=01;35:*.mpg=01;35:*.mpeg=01;35:*.m2v=01;35:*.mkv=01;35:*.webm=01;35:*.webp=01;35:*.ogm=01;35:*.mp4=01;35:*.m4v=01;35:*.mp4v=01;35:*.vob=01;35:*.qt=01;35:*.nuv=01;35:*.wmv=01;35:*.asf=01;35:*.rm=01;35:*.rmvb=01;35:*.flc=01;35:*.avi=01;35:*.fli=01;35:*.flv=01;35:*.gl=01;35:*.dl=01;35:*.xcf=01;35:*.xwd=01;35:*.yuv=01;35:*.cgm=01;35:*.emf=01;35:*.ogv=01;35:*.ogx=01;35:*.aac=00;36:*.au=00;36:*.flac=00;36:*.m4a=00;36:*.mid=00;36:*.midi=00;36:*.mka=00;36:*.mp3=00;36:*.mpc=00;36:*.ogg=00;36:*.ra=00;36:*.wav=00;36:*.oga=00;36:*.opus=00;36:*.spx=00;36:*.xspf=00;36:'), ('AMENT_PREFIX_PATH', '/opt/ros/humble'), ('CMAKE_PREFIX_PATH', ':/opt/ros/humble:/opt/ros/humble'), ('GAZEBO_RESOURCE_PATH', '/usr/share/gazebo-11:/usr/share/gazebo-11:/usr/share/gazebo'), ('GAZEBO_MASTER_PORT', '11345'), ('NVM_DIR', '/usr/local/share/shell/.nvm'), ('LESSCLOSE', '/usr/bin/lesspipe %s %s'), ('PYTHONPATH', '/opt/ros/humble/lib/python3.10/site-packages:/opt/ros/humble/local/lib/python3.10/dist-packages:/home/simulations/public_sim_ws/src/all/ros_basics_examples/python_course_class:/home/simulations/public_sim_ws/src/ros_basics_examples/python_course_class:/home/simulations/public_sim_ws/src/all/kinematics_course_utils/kinematics'), ('COLCON', '1'), ('TERM', 'xterm-color'), ('LESSOPEN', '| /usr/bin/lesspipe %s'), ('SNAPCRAFT_BUILD_ENVIRONMENT', 'host'), ('GAZEBO_MASTER_HOSTNAME', '2_simulation'), ('DISPLAY', ':1'), ('SHLVL', '2'), ('NVM_CD_FLAGS', ''), ('ROS_MASTER_URI', 'http://2_simulation:11311'), ('ROS_HOSTNAME', '2_xterm'), ('LD_LIBRARY_PATH', '/home/user/catkin_ws/devel/lib:/home/simulations/public_sim_ws/devel/lib:/opt/ros/humble/lib:/opt/ros/humble/lib/x86_64-linux-gnu:/usr/local/cuda-10.2/lib64:/home/user/.catkin_ws_python3/src/TensorRT-7.0.0.11/lib:/home/user/catkin_ws/devel/lib:/home/simulations/public_sim_ws/devel/lib:/opt/ros/humble/lib:/opt/ros/humble/lib/x86_64-linux-gnu:/opt/ros/humble/opt/rviz_ogre_vendor/lib:/opt/ros/humble/lib/x86_64-linux-gnu:/opt/ros/humble/lib:/usr/local/cuda-10.2/lib64:/home/user/.catkin_ws_python3/src/TensorRT-7.0.0.11/lib::/usr/lib/x86_64-linux-gnu/gazebo-11/plugins::/usr/lib/x86_64-linux-gnu/gazebo-11/plugins:/usr/lib/x86_64-linux-gnu/gazebo-11/plugins:'), ('ROS_LOCALHOST_ONLY', '0'), ('SLOT_SHELL_START_ID', '0'), ('SLOT_PREFIX', 'e1a39ae2-1c27-4135-a9df-a681ef511752'), ('LC_ALL', 'C'), ('SOURCE_ROS1_WS', 'True'), ('GAZEBO_MODEL_PATH', '/usr/share/gazebo-11/models:/usr/share/gazebo-11/models:/usr/share/gazebo-9/models:/usr/share/gazebo/models_robox'), ('SLOT_JENKINS_PORT', '25344'), ('SLOT_SYSTEMD', 'False'), ('PATH', '/opt/ros/humble/bin:/opt/ros/humble/bin:/opt/ros/humble/bin:/usr/local/share/shell/.nvm/versions/node/v8.17.0/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin:/home/user/.cargo/bin:/home/user/.cargo/bin'), ('SELECTED_ROS_DISTRO', 'humble'), ('NVM_BIN', '/usr/local/share/shell/.nvm/versions/node/v8.17.0/bin'), ('NODE_VERSION', 'v8.17.0'), ('DEBIAN_FRONTEND', 'noninteractive'), ('ROS_DISTRO', 'humble'), ('GAZEBO_VERBOSE', '0'), ('OGRE_RESOURCE_PATH', '/usr/lib/x86_64-linux-gnu/OGRE-1.9.0'), ('OLDPWD', '/home/user/ros2_ws/src'), ('SOURCE_ROS2_WS', ''), ('SLOT_ROSBRIDGE_PORT', '20002'), ('_', '/usr/bin/env')]), 'shell': False}
+[0.201873] (-) TimerEvent: {}
+[0.303324] (-) TimerEvent: {}
+[0.403937] (-) TimerEvent: {}
+[0.504407] (-) TimerEvent: {}
+[0.604832] (-) TimerEvent: {}
+[0.706008] (-) TimerEvent: {}
+[0.806388] (-) TimerEvent: {}
+[0.906778] (-) TimerEvent: {}
+[1.007173] (-) TimerEvent: {}
+[1.108343] (-) TimerEvent: {}
+[1.210785] (-) TimerEvent: {}
+[1.311803] (-) TimerEvent: {}
+[1.412301] (-) TimerEvent: {}
+[1.512693] (-) TimerEvent: {}
+[1.613131] (-) TimerEvent: {}
+[1.715710] (-) TimerEvent: {}
+[1.816202] (-) TimerEvent: {}
+[1.916610] (-) TimerEvent: {}
+[2.017004] (-) TimerEvent: {}
+[2.117717] (-) TimerEvent: {}
+[2.218107] (-) TimerEvent: {}
+[2.318460] (-) TimerEvent: {}
+[2.418839] (-) TimerEvent: {}
+[2.519210] (-) TimerEvent: {}
+[2.619593] (-) TimerEvent: {}
+[2.761241] (-) TimerEvent: {}
+[2.861639] (-) TimerEvent: {}
+[2.962034] (-) TimerEvent: {}
+[3.062982] (-) TimerEvent: {}
+[3.163367] (-) TimerEvent: {}
+[3.264139] (-) TimerEvent: {}
+[3.364654] (-) TimerEvent: {}
+[3.465061] (-) TimerEvent: {}
+[3.565703] (-) TimerEvent: {}
+[3.666052] (-) TimerEvent: {}
+[3.766466] (-) TimerEvent: {}
+[3.866854] (-) TimerEvent: {}
+[3.967232] (-) TimerEvent: {}
+[4.067607] (-) TimerEvent: {}
+[4.167915] (-) TimerEvent: {}
+[4.268274] (-) TimerEvent: {}
+[4.368998] (-) TimerEvent: {}
+[4.469370] (-) TimerEvent: {}
+[4.569741] (-) TimerEvent: {}
+[4.670233] (-) TimerEvent: {}
+[4.770601] (-) TimerEvent: {}
+[4.871531] (-) TimerEvent: {}
+[4.971915] (-) TimerEvent: {}
+[5.072303] (-) TimerEvent: {}
+[5.173175] (-) TimerEvent: {}
+[5.273555] (-) TimerEvent: {}
+[5.373948] (-) TimerEvent: {}
+[5.474315] (-) TimerEvent: {}
+[5.575744] (-) TimerEvent: {}
+[5.676196] (-) TimerEvent: {}
+[5.776854] (-) TimerEvent: {}
+[5.878787] (-) TimerEvent: {}
+[5.879680] (custom_interfaces) StdoutLine: {'line': b'-- The C compiler identification is GNU 11.4.0\n'}
+[5.978902] (-) TimerEvent: {}
+[6.079488] (-) TimerEvent: {}
+[6.179893] (-) TimerEvent: {}
+[6.280385] (-) TimerEvent: {}
+[6.383472] (-) TimerEvent: {}
+[6.486653] (-) TimerEvent: {}
+[6.587073] (-) TimerEvent: {}
+[6.688020] (-) TimerEvent: {}
+[6.788406] (-) TimerEvent: {}
+[6.888760] (-) TimerEvent: {}
+[6.991920] (-) TimerEvent: {}
+[7.096093] (-) TimerEvent: {}
+[7.197059] (-) TimerEvent: {}
+[7.297430] (-) TimerEvent: {}
+[7.397835] (-) TimerEvent: {}
+[7.498255] (-) TimerEvent: {}
+[7.598674] (-) TimerEvent: {}
+[7.699066] (-) TimerEvent: {}
+[7.804701] (-) TimerEvent: {}
+[7.905159] (-) TimerEvent: {}
+[8.005579] (-) TimerEvent: {}
+[8.106001] (-) TimerEvent: {}
+[8.206423] (-) TimerEvent: {}
+[8.306805] (-) TimerEvent: {}
+[8.407272] (-) TimerEvent: {}
+[8.507635] (-) TimerEvent: {}
+[8.608037] (-) TimerEvent: {}
+[8.691787] (custom_interfaces) StdoutLine: {'line': b'-- The CXX compiler identification is GNU 11.4.0\n'}
+[8.708213] (-) TimerEvent: {}
+[8.808633] (-) TimerEvent: {}
+[8.878875] (custom_interfaces) StdoutLine: {'line': b'-- Detecting C compiler ABI info\n'}
+[8.908815] (-) TimerEvent: {}
+[9.009181] (-) TimerEvent: {}
+[9.109565] (-) TimerEvent: {}
+[9.187006] (custom_interfaces) StdoutLine: {'line': b'-- Detecting C compiler ABI info - done\n'}
+[9.207507] (custom_interfaces) StdoutLine: {'line': b'-- Check for working C compiler: /usr/bin/cc - skipped\n'}
+[9.208307] (custom_interfaces) StdoutLine: {'line': b'-- Detecting C compile features\n'}
+[9.210747] (-) TimerEvent: {}
+[9.272867] (custom_interfaces) StdoutLine: {'line': b'-- Detecting C compile features - done\n'}
+[9.286312] (custom_interfaces) StdoutLine: {'line': b'-- Detecting CXX compiler ABI info\n'}
+[9.311578] (-) TimerEvent: {}
+[9.412198] (-) TimerEvent: {}
+[9.512798] (-) TimerEvent: {}
+[9.574554] (custom_interfaces) StdoutLine: {'line': b'-- Detecting CXX compiler ABI info - done\n'}
+[9.594971] (custom_interfaces) StdoutLine: {'line': b'-- Check for working CXX compiler: /usr/bin/c++ - skipped\n'}
+[9.595991] (custom_interfaces) StdoutLine: {'line': b'-- Detecting CXX compile features\n'}
+[9.596704] (custom_interfaces) StdoutLine: {'line': b'-- Detecting CXX compile features - done\n'}
+[9.612924] (-) TimerEvent: {}
+[9.626085] (custom_interfaces) StdoutLine: {'line': b'-- Found ament_cmake: 1.3.8 (/opt/ros/humble/share/ament_cmake/cmake)\n'}
+[9.713066] (-) TimerEvent: {}
+[9.813650] (-) TimerEvent: {}
+[9.914125] (-) TimerEvent: {}
+[10.014504] (-) TimerEvent: {}
+[10.114905] (-) TimerEvent: {}
+[10.215275] (-) TimerEvent: {}
+[10.318194] (-) TimerEvent: {}
+[10.326152] (custom_interfaces) StdoutLine: {'line': b'-- Found Python3: /usr/bin/python3 (found version "3.10.12") found components: Interpreter \n'}
+[10.418307] (-) TimerEvent: {}
+[10.518686] (-) TimerEvent: {}
+[10.613695] (custom_interfaces) StdoutLine: {'line': b'-- Found rclcpp: 16.0.8 (/opt/ros/humble/share/rclcpp/cmake)\n'}
+[10.618812] (-) TimerEvent: {}
+[10.719332] (-) TimerEvent: {}
+[10.819971] (-) TimerEvent: {}
+[10.920301] (-) TimerEvent: {}
+[11.020686] (-) TimerEvent: {}
+[11.042893] (custom_interfaces) StdoutLine: {'line': b'-- Found rosidl_generator_c: 3.1.5 (/opt/ros/humble/share/rosidl_generator_c/cmake)\n'}
+[11.072406] (custom_interfaces) StdoutLine: {'line': b'-- Found rosidl_adapter: 3.1.5 (/opt/ros/humble/share/rosidl_adapter/cmake)\n'}
+[11.110306] (custom_interfaces) StdoutLine: {'line': b'-- Found rosidl_generator_cpp: 3.1.5 (/opt/ros/humble/share/rosidl_generator_cpp/cmake)\n'}
+[11.120803] (-) TimerEvent: {}
+[11.172605] (custom_interfaces) StdoutLine: {'line': b'-- Using all available rosidl_typesupport_c: rosidl_typesupport_fastrtps_c;rosidl_typesupport_introspection_c\n'}
+[11.220942] (-) TimerEvent: {}
+[11.250556] (custom_interfaces) StdoutLine: {'line': b'-- Using all available rosidl_typesupport_cpp: rosidl_typesupport_fastrtps_cpp;rosidl_typesupport_introspection_cpp\n'}
+[11.321072] (-) TimerEvent: {}
+[11.421462] (-) TimerEvent: {}
+[11.522934] (-) TimerEvent: {}
+[11.568314] (custom_interfaces) StdoutLine: {'line': b'-- Found rmw_implementation_cmake: 6.1.1 (/opt/ros/humble/share/rmw_implementation_cmake/cmake)\n'}
+[11.588506] (custom_interfaces) StdoutLine: {'line': b'-- Found rmw_fastrtps_cpp: 6.2.6 (/opt/ros/humble/share/rmw_fastrtps_cpp/cmake)\n'}
+[11.623059] (-) TimerEvent: {}
+[11.723451] (-) TimerEvent: {}
+[11.823838] (-) TimerEvent: {}
+[11.924297] (-) TimerEvent: {}
+[12.024730] (-) TimerEvent: {}
+[12.126238] (-) TimerEvent: {}
+[12.226610] (-) TimerEvent: {}
+[12.326973] (-) TimerEvent: {}
+[12.356212] (custom_interfaces) StdoutLine: {'line': b'-- Found OpenSSL: /usr/lib/x86_64-linux-gnu/libcrypto.so (found version "3.0.2")  \n'}
+[12.427126] (-) TimerEvent: {}
+[12.437086] (custom_interfaces) StdoutLine: {'line': b'-- Found FastRTPS: /opt/ros/humble/include  \n'}
+[12.527298] (-) TimerEvent: {}
+[12.559469] (custom_interfaces) StdoutLine: {'line': b"-- Using RMW implementation 'rmw_fastrtps_cpp' as default\n"}
+[12.627446] (-) TimerEvent: {}
+[12.678453] (custom_interfaces) StdoutLine: {'line': b'-- Looking for pthread.h\n'}
+[12.727891] (-) TimerEvent: {}
+[12.828207] (-) TimerEvent: {}
+[12.928559] (-) TimerEvent: {}
+[13.028902] (-) TimerEvent: {}
+[13.129260] (-) TimerEvent: {}
+[13.229627] (-) TimerEvent: {}
+[13.330070] (-) TimerEvent: {}
+[13.430449] (-) TimerEvent: {}
+[13.530848] (-) TimerEvent: {}
+[13.596910] (custom_interfaces) StdoutLine: {'line': b'-- Looking for pthread.h - found\n'}
+[13.598868] (custom_interfaces) StdoutLine: {'line': b'-- Performing Test CMAKE_HAVE_LIBC_PTHREAD\n'}
+[13.631085] (-) TimerEvent: {}
+[13.731498] (-) TimerEvent: {}
+[13.739636] (custom_interfaces) StdoutLine: {'line': b'-- Performing Test CMAKE_HAVE_LIBC_PTHREAD - Success\n'}
+[13.741218] (custom_interfaces) StdoutLine: {'line': b'-- Found Threads: TRUE  \n'}
+[13.833878] (-) TimerEvent: {}
+[13.934577] (-) TimerEvent: {}
+[14.036202] (-) TimerEvent: {}
+[14.136584] (-) TimerEvent: {}
+[14.152754] (custom_interfaces) StdoutLine: {'line': b'-- Found action_msgs: 1.2.1 (/opt/ros/humble/share/action_msgs/cmake)\n'}
+[14.236717] (-) TimerEvent: {}
+[14.329888] (custom_interfaces) StdoutLine: {'line': b'-- Found geometry_msgs: 4.2.3 (/opt/ros/humble/share/geometry_msgs/cmake)\n'}
+[14.336845] (-) TimerEvent: {}
+[14.434953] (custom_interfaces) StdoutLine: {'line': b'-- Found rosidl_default_generators: 1.2.0 (/opt/ros/humble/share/rosidl_default_generators/cmake)\n'}
+[14.436920] (-) TimerEvent: {}
+[14.530658] (custom_interfaces) StdoutLine: {'line': b'-- Found ament_lint_auto: 0.12.10 (/opt/ros/humble/share/ament_lint_auto/cmake)\n'}
+[14.537213] (-) TimerEvent: {}
+[14.638120] (-) TimerEvent: {}
+[14.738445] (-) TimerEvent: {}
+[14.838802] (-) TimerEvent: {}
+[14.943372] (-) TimerEvent: {}
+[15.043738] (-) TimerEvent: {}
+[15.144186] (-) TimerEvent: {}
+[15.244546] (-) TimerEvent: {}
+[15.289114] (custom_interfaces) StdoutLine: {'line': b'-- Found ament_cmake_ros: 0.10.0 (/opt/ros/humble/share/ament_cmake_ros/cmake)\n'}
+[15.344764] (-) TimerEvent: {}
+[15.445386] (-) TimerEvent: {}
+[15.546031] (-) TimerEvent: {}
+[15.646547] (-) TimerEvent: {}
+[15.746923] (-) TimerEvent: {}
+[15.847264] (-) TimerEvent: {}
+[15.947655] (-) TimerEvent: {}
+[16.048298] (-) TimerEvent: {}
+[16.129342] (custom_interfaces) StdoutLine: {'line': b'-- Using all available rosidl_typesupport_c: rosidl_typesupport_fastrtps_c;rosidl_typesupport_introspection_c\n'}
+[16.148424] (-) TimerEvent: {}
+[16.248798] (-) TimerEvent: {}
+[16.349184] (-) TimerEvent: {}
+[16.447238] (custom_interfaces) StdoutLine: {'line': b'-- Using all available rosidl_typesupport_cpp: rosidl_typesupport_fastrtps_cpp;rosidl_typesupport_introspection_cpp\n'}
+[16.449286] (-) TimerEvent: {}
+[16.492873] (custom_interfaces) StdoutLine: {'line': b'-- Found PythonInterp: /usr/bin/python3 (found suitable version "3.10.12", minimum required is "3.6") \n'}
+[16.502212] (custom_interfaces) StdoutLine: {'line': b'-- Found python_cmake_module: 0.10.0 (/opt/ros/humble/share/python_cmake_module/cmake)\n'}
+[16.549466] (-) TimerEvent: {}
+[16.551798] (custom_interfaces) StdoutLine: {'line': b'-- Found PythonLibs: /usr/lib/x86_64-linux-gnu/libpython3.10.so (found suitable version "3.10.12", minimum required is "3.5") \n'}
+[16.552122] (custom_interfaces) StdoutLine: {'line': b'-- Using PYTHON_EXECUTABLE: /usr/bin/python3\n'}
+[16.552256] (custom_interfaces) StdoutLine: {'line': b'-- Using PYTHON_INCLUDE_DIRS: /usr/include/python3.10\n'}
+[16.552373] (custom_interfaces) StdoutLine: {'line': b'-- Using PYTHON_LIBRARIES: /usr/lib/x86_64-linux-gnu/libpython3.10.so\n'}
+[16.594678] (custom_interfaces) StdoutLine: {'line': b'-- Found PythonExtra: .so  \n'}
+[16.649632] (-) TimerEvent: {}
+[16.750395] (-) TimerEvent: {}
+[16.819736] (custom_interfaces) StdoutLine: {'line': b"-- Added test 'lint_cmake' to check CMake code style\n"}
+[16.825390] (custom_interfaces) StdoutLine: {'line': b"-- Added test 'xmllint' to check XML markup files\n"}
+[16.845262] (custom_interfaces) StdoutLine: {'line': b'-- Configuring done\n'}
+[16.850479] (-) TimerEvent: {}
+[16.921096] (custom_interfaces) StdoutLine: {'line': b'-- Generating done\n'}
+[16.925415] (custom_interfaces) StdoutLine: {'line': b'-- Build files have been written to: /home/user/ros2_ws/build/custom_interfaces\n'}
+[16.947150] (custom_interfaces) CommandEnded: {'returncode': 0}
+[16.947566] (custom_interfaces) JobProgress: {'identifier': 'custom_interfaces', 'progress': 'build'}
+[16.947602] (custom_interfaces) Command: {'cmd': ['/usr/bin/cmake', '--build', '/home/user/ros2_ws/build/custom_interfaces', '--', '-j8', '-l8'], 'cwd': '/home/user/ros2_ws/build/custom_interfaces', 'env': OrderedDict([('ROS_VERSION', '2'), ('NVIDIA_VISIBLE_DEVICES', 'all'), ('GAZEBO_MASTER_URI', 'http://2_simulation:11345'), ('PKG_CONFIG_PATH', ':/opt/ros/humble/lib/pkgconfig:/opt/ros/humble/lib/x86_64-linux-gnu/pkgconfig:/opt/ros/humble/lib/pkgconfig:/opt/ros/humble/lib/x86_64-linux-gnu/pkgconfig'), ('ROS_PYTHON_VERSION', '3'), ('HOSTNAME', '2_xterm'), ('PWD', '/home/user/ros2_ws/build/custom_interfaces'), ('PORT', '4000'), ('NVIDIA_DRIVER_CAPABILITIES', 'all'), ('ROS_IP', ''), ('HOME', '/home/user'), ('GAZEBO_PLUGIN_PATH', '/usr/lib/x86_64-linux-gnu/gazebo-11/plugins:/usr/lib/x86_64-linux-gnu/gazebo-11/plugins:'), ('LANG', 'en_US.UTF-8'), ('GAZEBO_MODEL_DATABASE_URI', 'http://models.gazebosim.org'), ('LS_COLORS', 'rs=0:di=01;34:ln=01;36:mh=00:pi=40;33:so=01;35:do=01;35:bd=40;33;01:cd=40;33;01:or=40;31;01:mi=00:su=37;41:sg=30;43:ca=30;41:tw=30;42:ow=34;42:st=37;44:ex=01;32:*.tar=01;31:*.tgz=01;31:*.arc=01;31:*.arj=01;31:*.taz=01;31:*.lha=01;31:*.lz4=01;31:*.lzh=01;31:*.lzma=01;31:*.tlz=01;31:*.txz=01;31:*.tzo=01;31:*.t7z=01;31:*.zip=01;31:*.z=01;31:*.dz=01;31:*.gz=01;31:*.lrz=01;31:*.lz=01;31:*.lzo=01;31:*.xz=01;31:*.zst=01;31:*.tzst=01;31:*.bz2=01;31:*.bz=01;31:*.tbz=01;31:*.tbz2=01;31:*.tz=01;31:*.deb=01;31:*.rpm=01;31:*.jar=01;31:*.war=01;31:*.ear=01;31:*.sar=01;31:*.rar=01;31:*.alz=01;31:*.ace=01;31:*.zoo=01;31:*.cpio=01;31:*.7z=01;31:*.rz=01;31:*.cab=01;31:*.wim=01;31:*.swm=01;31:*.dwm=01;31:*.esd=01;31:*.jpg=01;35:*.jpeg=01;35:*.mjpg=01;35:*.mjpeg=01;35:*.gif=01;35:*.bmp=01;35:*.pbm=01;35:*.pgm=01;35:*.ppm=01;35:*.tga=01;35:*.xbm=01;35:*.xpm=01;35:*.tif=01;35:*.tiff=01;35:*.png=01;35:*.svg=01;35:*.svgz=01;35:*.mng=01;35:*.pcx=01;35:*.mov=01;35:*.mpg=01;35:*.mpeg=01;35:*.m2v=01;35:*.mkv=01;35:*.webm=01;35:*.webp=01;35:*.ogm=01;35:*.mp4=01;35:*.m4v=01;35:*.mp4v=01;35:*.vob=01;35:*.qt=01;35:*.nuv=01;35:*.wmv=01;35:*.asf=01;35:*.rm=01;35:*.rmvb=01;35:*.flc=01;35:*.avi=01;35:*.fli=01;35:*.flv=01;35:*.gl=01;35:*.dl=01;35:*.xcf=01;35:*.xwd=01;35:*.yuv=01;35:*.cgm=01;35:*.emf=01;35:*.ogv=01;35:*.ogx=01;35:*.aac=00;36:*.au=00;36:*.flac=00;36:*.m4a=00;36:*.mid=00;36:*.midi=00;36:*.mka=00;36:*.mp3=00;36:*.mpc=00;36:*.ogg=00;36:*.ra=00;36:*.wav=00;36:*.oga=00;36:*.opus=00;36:*.spx=00;36:*.xspf=00;36:'), ('AMENT_PREFIX_PATH', '/opt/ros/humble'), ('CMAKE_PREFIX_PATH', ':/opt/ros/humble:/opt/ros/humble'), ('GAZEBO_RESOURCE_PATH', '/usr/share/gazebo-11:/usr/share/gazebo-11:/usr/share/gazebo'), ('GAZEBO_MASTER_PORT', '11345'), ('NVM_DIR', '/usr/local/share/shell/.nvm'), ('LESSCLOSE', '/usr/bin/lesspipe %s %s'), ('PYTHONPATH', '/opt/ros/humble/lib/python3.10/site-packages:/opt/ros/humble/local/lib/python3.10/dist-packages:/home/simulations/public_sim_ws/src/all/ros_basics_examples/python_course_class:/home/simulations/public_sim_ws/src/ros_basics_examples/python_course_class:/home/simulations/public_sim_ws/src/all/kinematics_course_utils/kinematics'), ('COLCON', '1'), ('TERM', 'xterm-color'), ('LESSOPEN', '| /usr/bin/lesspipe %s'), ('SNAPCRAFT_BUILD_ENVIRONMENT', 'host'), ('GAZEBO_MASTER_HOSTNAME', '2_simulation'), ('DISPLAY', ':1'), ('SHLVL', '2'), ('NVM_CD_FLAGS', ''), ('ROS_MASTER_URI', 'http://2_simulation:11311'), ('ROS_HOSTNAME', '2_xterm'), ('LD_LIBRARY_PATH', '/home/user/catkin_ws/devel/lib:/home/simulations/public_sim_ws/devel/lib:/opt/ros/humble/lib:/opt/ros/humble/lib/x86_64-linux-gnu:/usr/local/cuda-10.2/lib64:/home/user/.catkin_ws_python3/src/TensorRT-7.0.0.11/lib:/home/user/catkin_ws/devel/lib:/home/simulations/public_sim_ws/devel/lib:/opt/ros/humble/lib:/opt/ros/humble/lib/x86_64-linux-gnu:/opt/ros/humble/opt/rviz_ogre_vendor/lib:/opt/ros/humble/lib/x86_64-linux-gnu:/opt/ros/humble/lib:/usr/local/cuda-10.2/lib64:/home/user/.catkin_ws_python3/src/TensorRT-7.0.0.11/lib::/usr/lib/x86_64-linux-gnu/gazebo-11/plugins::/usr/lib/x86_64-linux-gnu/gazebo-11/plugins:/usr/lib/x86_64-linux-gnu/gazebo-11/plugins:'), ('ROS_LOCALHOST_ONLY', '0'), ('SLOT_SHELL_START_ID', '0'), ('SLOT_PREFIX', 'e1a39ae2-1c27-4135-a9df-a681ef511752'), ('LC_ALL', 'C'), ('SOURCE_ROS1_WS', 'True'), ('GAZEBO_MODEL_PATH', '/usr/share/gazebo-11/models:/usr/share/gazebo-11/models:/usr/share/gazebo-9/models:/usr/share/gazebo/models_robox'), ('SLOT_JENKINS_PORT', '25344'), ('SLOT_SYSTEMD', 'False'), ('PATH', '/opt/ros/humble/bin:/opt/ros/humble/bin:/opt/ros/humble/bin:/usr/local/share/shell/.nvm/versions/node/v8.17.0/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin:/home/user/.cargo/bin:/home/user/.cargo/bin'), ('SELECTED_ROS_DISTRO', 'humble'), ('NVM_BIN', '/usr/local/share/shell/.nvm/versions/node/v8.17.0/bin'), ('NODE_VERSION', 'v8.17.0'), ('DEBIAN_FRONTEND', 'noninteractive'), ('ROS_DISTRO', 'humble'), ('GAZEBO_VERBOSE', '0'), ('OGRE_RESOURCE_PATH', '/usr/lib/x86_64-linux-gnu/OGRE-1.9.0'), ('OLDPWD', '/home/user/ros2_ws/src'), ('SOURCE_ROS2_WS', ''), ('SLOT_ROSBRIDGE_PORT', '20002'), ('_', '/usr/bin/env')]), 'shell': False}
+[16.950558] (-) TimerEvent: {}
+[17.050857] (-) TimerEvent: {}
+[17.062294] (custom_interfaces) StdoutLine: {'line': b'[  1%] \x1b[34m\x1b[1mGenerating C++ code for ROS interfaces\x1b[0m\n'}
+[17.150985] (-) TimerEvent: {}
+[17.251374] (-) TimerEvent: {}
+[17.351753] (-) TimerEvent: {}
+[17.452122] (-) TimerEvent: {}
+[17.552491] (-) TimerEvent: {}
+[17.652838] (-) TimerEvent: {}
+[17.755909] (-) TimerEvent: {}
+[17.856683] (-) TimerEvent: {}
+[17.957023] (-) TimerEvent: {}
+[18.057336] (-) TimerEvent: {}
+[18.157713] (-) TimerEvent: {}
+[18.258117] (-) TimerEvent: {}
+[18.358541] (-) TimerEvent: {}
+[18.458875] (-) TimerEvent: {}
+[18.482888] (custom_interfaces) StdoutLine: {'line': b'[  1%] Built target custom_interfaces__cpp\n'}
+[18.552797] (custom_interfaces) StdoutLine: {'line': b'[  1%] Built target ament_cmake_python_copy_custom_interfaces\n'}
+[18.558990] (-) TimerEvent: {}
+[18.571928] (custom_interfaces) StdoutLine: {'line': b'[  3%] \x1b[34m\x1b[1mGenerating C++ introspection for ROS interfaces\x1b[0m\n'}
+[18.659112] (-) TimerEvent: {}
+[18.759482] (-) TimerEvent: {}
+[18.860026] (-) TimerEvent: {}
+[18.960390] (-) TimerEvent: {}
+[19.062105] (-) TimerEvent: {}
+[19.162484] (-) TimerEvent: {}
+[19.262991] (-) TimerEvent: {}
+[19.363377] (-) TimerEvent: {}
+[19.463778] (-) TimerEvent: {}
+[19.509186] (custom_interfaces) StdoutLine: {'line': b'[  5%] \x1b[32mBuilding CXX object CMakeFiles/custom_interfaces__rosidl_typesupport_introspection_cpp.dir/rosidl_typesupport_introspection_cpp/custom_interfaces/msg/detail/age__type_support.cpp.o\x1b[0m\n'}
+[19.563921] (-) TimerEvent: {}
+[19.664332] (-) TimerEvent: {}
+[19.764709] (-) TimerEvent: {}
+[19.865583] (-) TimerEvent: {}
+[19.966296] (-) TimerEvent: {}
+[20.066687] (-) TimerEvent: {}
+[20.167091] (-) TimerEvent: {}
+[20.272140] (-) TimerEvent: {}
+[20.373225] (-) TimerEvent: {}
+[20.473903] (-) TimerEvent: {}
+[20.574468] (-) TimerEvent: {}
+[20.674972] (-) TimerEvent: {}
+[20.775379] (-) TimerEvent: {}
+[20.875802] (-) TimerEvent: {}
+[20.976199] (-) TimerEvent: {}
+[21.076609] (-) TimerEvent: {}
+[21.176992] (-) TimerEvent: {}
+[21.277413] (-) TimerEvent: {}
+[21.377949] (-) TimerEvent: {}
+[21.478384] (-) TimerEvent: {}
+[21.578754] (-) TimerEvent: {}
+[21.679143] (-) TimerEvent: {}
+[21.779535] (-) TimerEvent: {}
+[21.879878] (-) TimerEvent: {}
+[21.980276] (-) TimerEvent: {}
+[22.080675] (-) TimerEvent: {}
+[22.181098] (-) TimerEvent: {}
+[22.281505] (-) TimerEvent: {}
+[22.349820] (custom_interfaces) StdoutLine: {'line': b'[  7%] \x1b[32mBuilding CXX object CMakeFiles/custom_interfaces__rosidl_typesupport_introspection_cpp.dir/rosidl_typesupport_introspection_cpp/custom_interfaces/msg/detail/rover_events__type_support.cpp.o\x1b[0m\n'}
+[22.381631] (-) TimerEvent: {}
+[22.482096] (-) TimerEvent: {}
+[22.582504] (-) TimerEvent: {}
+[22.682933] (-) TimerEvent: {}
+[22.783343] (-) TimerEvent: {}
+[22.883730] (-) TimerEvent: {}
+[22.984366] (-) TimerEvent: {}
+[23.084758] (-) TimerEvent: {}
+[23.165593] (custom_interfaces) StdoutLine: {'line': b'[  9%] \x1b[32mBuilding CXX object CMakeFiles/custom_interfaces__rosidl_typesupport_introspection_cpp.dir/rosidl_typesupport_introspection_cpp/custom_interfaces/action/detail/move__type_support.cpp.o\x1b[0m\n'}
+[23.187974] (-) TimerEvent: {}
+[23.288565] (-) TimerEvent: {}
+[23.388999] (-) TimerEvent: {}
+[23.489378] (-) TimerEvent: {}
+[23.589788] (-) TimerEvent: {}
+[23.690145] (-) TimerEvent: {}
+[23.790558] (-) TimerEvent: {}
+[23.890948] (-) TimerEvent: {}
+[23.991333] (-) TimerEvent: {}
+[24.091729] (-) TimerEvent: {}
+[24.192337] (-) TimerEvent: {}
+[24.293678] (-) TimerEvent: {}
+[24.394096] (-) TimerEvent: {}
+[24.494455] (-) TimerEvent: {}
+[24.594851] (-) TimerEvent: {}
+[24.653811] (custom_interfaces) StdoutLine: {'line': b'[ 10%] \x1b[32mBuilding CXX object CMakeFiles/custom_interfaces__rosidl_typesupport_introspection_cpp.dir/rosidl_typesupport_introspection_cpp/custom_interfaces/srv/detail/my_custom_service_message__type_support.cpp.o\x1b[0m\n'}
+[24.694961] (-) TimerEvent: {}
+[24.795378] (-) TimerEvent: {}
+[24.896063] (-) TimerEvent: {}
+[24.996496] (-) TimerEvent: {}
+[25.096907] (-) TimerEvent: {}
+[25.197319] (-) TimerEvent: {}
+[25.272675] (custom_interfaces) StdoutLine: {'line': b'[ 12%] \x1b[32m\x1b[1mLinking CXX shared library libcustom_interfaces__rosidl_typesupport_introspection_cpp.so\x1b[0m\n'}
+[25.297842] (-) TimerEvent: {}
+[25.398187] (-) TimerEvent: {}
+[25.476744] (custom_interfaces) StdoutLine: {'line': b'[ 12%] Built target custom_interfaces__rosidl_typesupport_introspection_cpp\n'}
+[25.498318] (-) TimerEvent: {}
+[25.598676] (-) TimerEvent: {}
+[25.699007] (-) TimerEvent: {}
+[25.799381] (-) TimerEvent: {}
+[25.899748] (-) TimerEvent: {}
+[25.912731] (custom_interfaces) StdoutLine: {'line': b'running egg_info\n'}
+[25.913710] (custom_interfaces) StdoutLine: {'line': b'creating custom_interfaces.egg-info\n'}
+[25.914007] (custom_interfaces) StdoutLine: {'line': b'writing custom_interfaces.egg-info/PKG-INFO\n'}
+[25.914288] (custom_interfaces) StdoutLine: {'line': b'writing dependency_links to custom_interfaces.egg-info/dependency_links.txt\n'}
+[25.914482] (custom_interfaces) StdoutLine: {'line': b'writing top-level names to custom_interfaces.egg-info/top_level.txt\n'}
+[25.915273] (custom_interfaces) StdoutLine: {'line': b"writing manifest file 'custom_interfaces.egg-info/SOURCES.txt'\n"}
+[25.918536] (custom_interfaces) StdoutLine: {'line': b"reading manifest file 'custom_interfaces.egg-info/SOURCES.txt'\n"}
+[25.920057] (custom_interfaces) StdoutLine: {'line': b"writing manifest file 'custom_interfaces.egg-info/SOURCES.txt'\n"}
+[25.965681] (custom_interfaces) StdoutLine: {'line': b'[ 12%] Built target ament_cmake_python_build_custom_interfaces_egg\n'}
+[25.988847] (custom_interfaces) StdoutLine: {'line': b'[ 14%] \x1b[34m\x1b[1mGenerating C++ type support for eProsima Fast-RTPS\x1b[0m\n'}
+[26.000056] (-) TimerEvent: {}
+[26.100668] (-) TimerEvent: {}
+[26.201093] (-) TimerEvent: {}
+[26.301907] (-) TimerEvent: {}
+[26.402850] (-) TimerEvent: {}
+[26.503201] (-) TimerEvent: {}
+[26.604400] (-) TimerEvent: {}
+[26.705612] (-) TimerEvent: {}
+[26.805967] (-) TimerEvent: {}
+[26.906440] (-) TimerEvent: {}
+[27.006914] (-) TimerEvent: {}
+[27.038413] (custom_interfaces) StdoutLine: {'line': b'[ 16%] \x1b[32mBuilding CXX object CMakeFiles/custom_interfaces__rosidl_typesupport_fastrtps_cpp.dir/rosidl_typesupport_fastrtps_cpp/custom_interfaces/msg/detail/dds_fastrtps/age__type_support.cpp.o\x1b[0m\n'}
+[27.107044] (-) TimerEvent: {}
+[27.207407] (-) TimerEvent: {}
+[27.307784] (-) TimerEvent: {}
+[27.408261] (-) TimerEvent: {}
+[27.508665] (-) TimerEvent: {}
+[27.609352] (-) TimerEvent: {}
+[27.709795] (-) TimerEvent: {}
+[27.810200] (-) TimerEvent: {}
+[27.910577] (-) TimerEvent: {}
+[27.937193] (custom_interfaces) StdoutLine: {'line': b'[ 18%] \x1b[32mBuilding CXX object CMakeFiles/custom_interfaces__rosidl_typesupport_fastrtps_cpp.dir/rosidl_typesupport_fastrtps_cpp/custom_interfaces/msg/detail/dds_fastrtps/rover_events__type_support.cpp.o\x1b[0m\n'}
+[28.010707] (-) TimerEvent: {}
+[28.111109] (-) TimerEvent: {}
+[28.211522] (-) TimerEvent: {}
+[28.317405] (-) TimerEvent: {}
+[28.418012] (-) TimerEvent: {}
+[28.520605] (-) TimerEvent: {}
+[28.622000] (-) TimerEvent: {}
+[28.708819] (custom_interfaces) StdoutLine: {'line': b'[ 20%] \x1b[32mBuilding CXX object CMakeFiles/custom_interfaces__rosidl_typesupport_fastrtps_cpp.dir/rosidl_typesupport_fastrtps_cpp/custom_interfaces/action/detail/dds_fastrtps/move__type_support.cpp.o\x1b[0m\n'}
+[28.722120] (-) TimerEvent: {}
+[28.828307] (-) TimerEvent: {}
+[28.928713] (-) TimerEvent: {}
+[29.029094] (-) TimerEvent: {}
+[29.129461] (-) TimerEvent: {}
+[29.230260] (-) TimerEvent: {}
+[29.330960] (-) TimerEvent: {}
+[29.431629] (-) TimerEvent: {}
+[29.532424] (-) TimerEvent: {}
+[29.633050] (-) TimerEvent: {}
+[29.733607] (-) TimerEvent: {}
+[29.805807] (custom_interfaces) StdoutLine: {'line': b'[ 21%] \x1b[32mBuilding CXX object CMakeFiles/custom_interfaces__rosidl_typesupport_fastrtps_cpp.dir/rosidl_typesupport_fastrtps_cpp/custom_interfaces/srv/detail/dds_fastrtps/my_custom_service_message__type_support.cpp.o\x1b[0m\n'}
+[29.833758] (-) TimerEvent: {}
+[29.934174] (-) TimerEvent: {}
+[30.034607] (-) TimerEvent: {}
+[30.135006] (-) TimerEvent: {}
+[30.235410] (-) TimerEvent: {}
+[30.335861] (-) TimerEvent: {}
+[30.436301] (-) TimerEvent: {}
+[30.487348] (custom_interfaces) StdoutLine: {'line': b'[ 23%] \x1b[32m\x1b[1mLinking CXX shared library libcustom_interfaces__rosidl_typesupport_fastrtps_cpp.so\x1b[0m\n'}
+[30.536596] (-) TimerEvent: {}
+[30.607092] (custom_interfaces) StdoutLine: {'line': b'[ 23%] Built target custom_interfaces__rosidl_typesupport_fastrtps_cpp\n'}
+[30.624894] (custom_interfaces) StdoutLine: {'line': b'[ 25%] \x1b[34m\x1b[1mGenerating C++ type support dispatch for ROS interfaces\x1b[0m\n'}
+[30.636709] (-) TimerEvent: {}
+[30.737057] (-) TimerEvent: {}
+[30.837863] (-) TimerEvent: {}
+[30.938524] (-) TimerEvent: {}
+[31.039430] (-) TimerEvent: {}
+[31.140447] (-) TimerEvent: {}
+[31.240767] (-) TimerEvent: {}
+[31.320106] (custom_interfaces) StdoutLine: {'line': b'[ 27%] \x1b[32mBuilding CXX object CMakeFiles/custom_interfaces__rosidl_typesupport_cpp.dir/rosidl_typesupport_cpp/custom_interfaces/msg/age__type_support.cpp.o\x1b[0m\n'}
+[31.340882] (-) TimerEvent: {}
+[31.441235] (-) TimerEvent: {}
+[31.541626] (-) TimerEvent: {}
+[31.642036] (-) TimerEvent: {}
+[31.731194] (custom_interfaces) StdoutLine: {'line': b'[ 29%] \x1b[32mBuilding CXX object CMakeFiles/custom_interfaces__rosidl_typesupport_cpp.dir/rosidl_typesupport_cpp/custom_interfaces/msg/rover_events__type_support.cpp.o\x1b[0m\n'}
+[31.742158] (-) TimerEvent: {}
+[31.843089] (-) TimerEvent: {}
+[31.943519] (-) TimerEvent: {}
+[32.044053] (-) TimerEvent: {}
+[32.144495] (-) TimerEvent: {}
+[32.183606] (custom_interfaces) StdoutLine: {'line': b'[ 30%] \x1b[32mBuilding CXX object CMakeFiles/custom_interfaces__rosidl_typesupport_cpp.dir/rosidl_typesupport_cpp/custom_interfaces/action/move__type_support.cpp.o\x1b[0m\n'}
+[32.244784] (-) TimerEvent: {}
+[32.345309] (-) TimerEvent: {}
+[32.447923] (-) TimerEvent: {}
+[32.548940] (-) TimerEvent: {}
+[32.649413] (-) TimerEvent: {}
+[32.749823] (-) TimerEvent: {}
+[32.850240] (-) TimerEvent: {}
+[32.850850] (custom_interfaces) StdoutLine: {'line': b'[ 32%] \x1b[32mBuilding CXX object CMakeFiles/custom_interfaces__rosidl_typesupport_cpp.dir/rosidl_typesupport_cpp/custom_interfaces/srv/my_custom_service_message__type_support.cpp.o\x1b[0m\n'}
+[32.950358] (-) TimerEvent: {}
+[33.050695] (-) TimerEvent: {}
+[33.151027] (-) TimerEvent: {}
+[33.251395] (-) TimerEvent: {}
+[33.280769] (custom_interfaces) StdoutLine: {'line': b'[ 34%] \x1b[32m\x1b[1mLinking CXX shared library libcustom_interfaces__rosidl_typesupport_cpp.so\x1b[0m\n'}
+[33.351516] (-) TimerEvent: {}
+[33.369010] (custom_interfaces) StdoutLine: {'line': b'[ 34%] Built target custom_interfaces__rosidl_typesupport_cpp\n'}
+[33.388918] (custom_interfaces) StdoutLine: {'line': b'[ 36%] \x1b[34m\x1b[1mGenerating C code for ROS interfaces\x1b[0m\n'}
+[33.456415] (-) TimerEvent: {}
+[33.556813] (-) TimerEvent: {}
+[33.657461] (-) TimerEvent: {}
+[33.757913] (-) TimerEvent: {}
+[33.858379] (-) TimerEvent: {}
+[33.958843] (-) TimerEvent: {}
+[34.059156] (-) TimerEvent: {}
+[34.159528] (-) TimerEvent: {}
+[34.259988] (-) TimerEvent: {}
+[34.360406] (-) TimerEvent: {}
+[34.460773] (-) TimerEvent: {}
+[34.561157] (-) TimerEvent: {}
+[34.661554] (-) TimerEvent: {}
+[34.762019] (-) TimerEvent: {}
+[34.784684] (custom_interfaces) StdoutLine: {'line': b'[ 38%] \x1b[32mBuilding C object CMakeFiles/custom_interfaces__rosidl_generator_c.dir/rosidl_generator_c/custom_interfaces/msg/detail/age__functions.c.o\x1b[0m\n'}
+[34.862152] (-) TimerEvent: {}
+[34.962769] (-) TimerEvent: {}
+[35.063151] (-) TimerEvent: {}
+[35.072228] (custom_interfaces) StdoutLine: {'line': b'[ 40%] \x1b[32mBuilding C object CMakeFiles/custom_interfaces__rosidl_generator_c.dir/rosidl_generator_c/custom_interfaces/msg/detail/rover_events__functions.c.o\x1b[0m\n'}
+[35.163328] (-) TimerEvent: {}
+[35.225149] (custom_interfaces) StdoutLine: {'line': b'[ 41%] \x1b[32mBuilding C object CMakeFiles/custom_interfaces__rosidl_generator_c.dir/rosidl_generator_c/custom_interfaces/action/detail/move__functions.c.o\x1b[0m\n'}
+[35.263573] (-) TimerEvent: {}
+[35.364117] (-) TimerEvent: {}
+[35.464656] (-) TimerEvent: {}
+[35.565461] (-) TimerEvent: {}
+[35.597963] (custom_interfaces) StdoutLine: {'line': b'[ 43%] \x1b[32mBuilding C object CMakeFiles/custom_interfaces__rosidl_generator_c.dir/rosidl_generator_c/custom_interfaces/srv/detail/my_custom_service_message__functions.c.o\x1b[0m\n'}
+[35.665607] (-) TimerEvent: {}
+[35.708225] (custom_interfaces) StdoutLine: {'line': b'[ 45%] \x1b[32m\x1b[1mLinking C shared library libcustom_interfaces__rosidl_generator_c.so\x1b[0m\n'}
+[35.765742] (-) TimerEvent: {}
+[35.780759] (custom_interfaces) StdoutLine: {'line': b'[ 45%] Built target custom_interfaces__rosidl_generator_c\n'}
+[35.799092] (custom_interfaces) StdoutLine: {'line': b'[ 47%] \x1b[34m\x1b[1mGenerating C type support for eProsima Fast-RTPS\x1b[0m\n'}
+[35.865860] (-) TimerEvent: {}
+[35.966235] (-) TimerEvent: {}
+[36.066621] (-) TimerEvent: {}
+[36.168197] (-) TimerEvent: {}
+[36.269238] (-) TimerEvent: {}
+[36.369624] (-) TimerEvent: {}
+[36.470045] (-) TimerEvent: {}
+[36.570433] (-) TimerEvent: {}
+[36.670778] (-) TimerEvent: {}
+[36.771283] (-) TimerEvent: {}
+[36.815048] (custom_interfaces) StdoutLine: {'line': b'[ 49%] \x1b[32mBuilding CXX object CMakeFiles/custom_interfaces__rosidl_typesupport_fastrtps_c.dir/rosidl_typesupport_fastrtps_c/custom_interfaces/msg/detail/age__type_support_c.cpp.o\x1b[0m\n'}
+[36.871413] (-) TimerEvent: {}
+[36.971855] (-) TimerEvent: {}
+[37.072356] (-) TimerEvent: {}
+[37.172850] (-) TimerEvent: {}
+[37.273240] (-) TimerEvent: {}
+[37.334335] (custom_interfaces) StdoutLine: {'line': b'[ 50%] \x1b[32mBuilding CXX object CMakeFiles/custom_interfaces__rosidl_typesupport_fastrtps_c.dir/rosidl_typesupport_fastrtps_c/custom_interfaces/msg/detail/rover_events__type_support_c.cpp.o\x1b[0m\n'}
+[37.373743] (-) TimerEvent: {}
+[37.474246] (-) TimerEvent: {}
+[37.575575] (-) TimerEvent: {}
+[37.677335] (-) TimerEvent: {}
+[37.778095] (-) TimerEvent: {}
+[37.841072] (custom_interfaces) StdoutLine: {'line': b'[ 52%] \x1b[32mBuilding CXX object CMakeFiles/custom_interfaces__rosidl_typesupport_fastrtps_c.dir/rosidl_typesupport_fastrtps_c/custom_interfaces/action/detail/move__type_support_c.cpp.o\x1b[0m\n'}
+[37.878230] (-) TimerEvent: {}
+[37.978692] (-) TimerEvent: {}
+[38.079101] (-) TimerEvent: {}
+[38.179975] (-) TimerEvent: {}
+[38.280424] (-) TimerEvent: {}
+[38.381669] (-) TimerEvent: {}
+[38.482362] (-) TimerEvent: {}
+[38.582768] (-) TimerEvent: {}
+[38.621574] (custom_interfaces) StdoutLine: {'line': b'[ 54%] \x1b[32mBuilding CXX object CMakeFiles/custom_interfaces__rosidl_typesupport_fastrtps_c.dir/rosidl_typesupport_fastrtps_c/custom_interfaces/srv/detail/my_custom_service_message__type_support_c.cpp.o\x1b[0m\n'}
+[38.682899] (-) TimerEvent: {}
+[38.783302] (-) TimerEvent: {}
+[38.883828] (-) TimerEvent: {}
+[38.984295] (-) TimerEvent: {}
+[39.085427] (-) TimerEvent: {}
+[39.175974] (custom_interfaces) StdoutLine: {'line': b'[ 56%] \x1b[32m\x1b[1mLinking CXX shared library libcustom_interfaces__rosidl_typesupport_fastrtps_c.so\x1b[0m\n'}
+[39.185545] (-) TimerEvent: {}
+[39.285946] (-) TimerEvent: {}
+[39.319168] (custom_interfaces) StdoutLine: {'line': b'[ 56%] Built target custom_interfaces__rosidl_typesupport_fastrtps_c\n'}
+[39.337368] (custom_interfaces) StdoutLine: {'line': b'[ 58%] \x1b[34m\x1b[1mGenerating C type support dispatch for ROS interfaces\x1b[0m\n'}
+[39.386094] (-) TimerEvent: {}
+[39.486430] (-) TimerEvent: {}
+[39.586796] (-) TimerEvent: {}
+[39.687447] (-) TimerEvent: {}
+[39.787830] (-) TimerEvent: {}
+[39.888211] (-) TimerEvent: {}
+[39.988580] (-) TimerEvent: {}
+[40.030797] (custom_interfaces) StdoutLine: {'line': b'[ 60%] \x1b[32mBuilding CXX object CMakeFiles/custom_interfaces__rosidl_typesupport_c.dir/rosidl_typesupport_c/custom_interfaces/msg/age__type_support.cpp.o\x1b[0m\n'}
+[40.088713] (-) TimerEvent: {}
+[40.103072] (custom_interfaces) StdoutLine: {'line': b'[ 61%] \x1b[32mBuilding CXX object CMakeFiles/custom_interfaces__rosidl_typesupport_c.dir/rosidl_typesupport_c/custom_interfaces/msg/rover_events__type_support.cpp.o\x1b[0m\n'}
+[40.180976] (custom_interfaces) StdoutLine: {'line': b'[ 63%] \x1b[32mBuilding CXX object CMakeFiles/custom_interfaces__rosidl_typesupport_c.dir/rosidl_typesupport_c/custom_interfaces/action/move__type_support.cpp.o\x1b[0m\n'}
+[40.188828] (-) TimerEvent: {}
+[40.289285] (-) TimerEvent: {}
+[40.360441] (custom_interfaces) StdoutLine: {'line': b'[ 65%] \x1b[32mBuilding CXX object CMakeFiles/custom_interfaces__rosidl_typesupport_c.dir/rosidl_typesupport_c/custom_interfaces/srv/my_custom_service_message__type_support.cpp.o\x1b[0m\n'}
+[40.389967] (-) TimerEvent: {}
+[40.457853] (custom_interfaces) StdoutLine: {'line': b'[ 67%] \x1b[32m\x1b[1mLinking CXX shared library libcustom_interfaces__rosidl_typesupport_c.so\x1b[0m\n'}
+[40.490250] (-) TimerEvent: {}
+[40.590629] (-) TimerEvent: {}
+[40.592034] (custom_interfaces) StdoutLine: {'line': b'[ 67%] Built target custom_interfaces__rosidl_typesupport_c\n'}
+[40.606323] (custom_interfaces) StdoutLine: {'line': b'[ 69%] \x1b[34m\x1b[1mGenerating C introspection for ROS interfaces\x1b[0m\n'}
+[40.690753] (-) TimerEvent: {}
+[40.791633] (-) TimerEvent: {}
+[40.892086] (-) TimerEvent: {}
+[40.992451] (-) TimerEvent: {}
+[41.092819] (-) TimerEvent: {}
+[41.193360] (-) TimerEvent: {}
+[41.294593] (-) TimerEvent: {}
+[41.394939] (-) TimerEvent: {}
+[41.495287] (-) TimerEvent: {}
+[41.527984] (custom_interfaces) StdoutLine: {'line': b'[ 70%] \x1b[32mBuilding C object CMakeFiles/custom_interfaces__rosidl_typesupport_introspection_c.dir/rosidl_typesupport_introspection_c/custom_interfaces/msg/detail/age__type_support.c.o\x1b[0m\n'}
+[41.583107] (custom_interfaces) StdoutLine: {'line': b'[ 72%] \x1b[32mBuilding C object CMakeFiles/custom_interfaces__rosidl_typesupport_introspection_c.dir/rosidl_typesupport_introspection_c/custom_interfaces/msg/detail/rover_events__type_support.c.o\x1b[0m\n'}
+[41.596047] (-) TimerEvent: {}
+[41.696633] (-) TimerEvent: {}
+[41.797031] (-) TimerEvent: {}
+[41.799137] (custom_interfaces) StdoutLine: {'line': b'[ 74%] \x1b[32mBuilding C object CMakeFiles/custom_interfaces__rosidl_typesupport_introspection_c.dir/rosidl_typesupport_introspection_c/custom_interfaces/action/detail/move__type_support.c.o\x1b[0m\n'}
+[41.882150] (custom_interfaces) StdoutLine: {'line': b'[ 76%] \x1b[32mBuilding C object CMakeFiles/custom_interfaces__rosidl_typesupport_introspection_c.dir/rosidl_typesupport_introspection_c/custom_interfaces/srv/detail/my_custom_service_message__type_support.c.o\x1b[0m\n'}
+[41.897183] (-) TimerEvent: {}
+[41.946968] (custom_interfaces) StdoutLine: {'line': b'[ 78%] \x1b[32m\x1b[1mLinking C shared library libcustom_interfaces__rosidl_typesupport_introspection_c.so\x1b[0m\n'}
+[41.999190] (-) TimerEvent: {}
+[42.018270] (custom_interfaces) StdoutLine: {'line': b'[ 78%] Built target custom_interfaces__rosidl_typesupport_introspection_c\n'}
+[42.053094] (custom_interfaces) StdoutLine: {'line': b'[ 78%] Built target custom_interfaces\n'}
+[42.083231] (custom_interfaces) StdoutLine: {'line': b'[ 80%] \x1b[34m\x1b[1mGenerating Python code for ROS interfaces\x1b[0m\n'}
+[42.099302] (-) TimerEvent: {}
+[42.199650] (-) TimerEvent: {}
+[42.300230] (-) TimerEvent: {}
+[42.402439] (-) TimerEvent: {}
+[42.502794] (-) TimerEvent: {}
+[42.603174] (-) TimerEvent: {}
+[42.703628] (-) TimerEvent: {}
+[42.805830] (-) TimerEvent: {}
+[42.906252] (-) TimerEvent: {}
+[43.006634] (-) TimerEvent: {}
+[43.106993] (-) TimerEvent: {}
+[43.207598] (-) TimerEvent: {}
+[43.308094] (-) TimerEvent: {}
+[43.408470] (-) TimerEvent: {}
+[43.509153] (-) TimerEvent: {}
+[43.611049] (-) TimerEvent: {}
+[43.711645] (-) TimerEvent: {}
+[43.812046] (-) TimerEvent: {}
+[43.912397] (-) TimerEvent: {}
+[44.012880] (-) TimerEvent: {}
+[44.115903] (-) TimerEvent: {}
+[44.217863] (-) TimerEvent: {}
+[44.318286] (-) TimerEvent: {}
+[44.343675] (custom_interfaces) StdoutLine: {'line': b'[ 80%] Built target custom_interfaces__py\n'}
+[44.385376] (custom_interfaces) StdoutLine: {'line': b'[ 81%] \x1b[32mBuilding C object CMakeFiles/custom_interfaces__rosidl_generator_py.dir/rosidl_generator_py/custom_interfaces/msg/_age_s.c.o\x1b[0m\n'}
+[44.419355] (-) TimerEvent: {}
+[44.519768] (-) TimerEvent: {}
+[44.620306] (-) TimerEvent: {}
+[44.720670] (-) TimerEvent: {}
+[44.821084] (-) TimerEvent: {}
+[44.924445] (-) TimerEvent: {}
+[45.024950] (-) TimerEvent: {}
+[45.125580] (-) TimerEvent: {}
+[45.225976] (-) TimerEvent: {}
+[45.326401] (-) TimerEvent: {}
+[45.390024] (custom_interfaces) StdoutLine: {'line': b'[ 83%] \x1b[32mBuilding C object CMakeFiles/custom_interfaces__rosidl_generator_py.dir/rosidl_generator_py/custom_interfaces/msg/_rover_events_s.c.o\x1b[0m\n'}
+[45.426540] (-) TimerEvent: {}
+[45.533899] (-) TimerEvent: {}
+[45.613364] (custom_interfaces) StdoutLine: {'line': b'[ 85%] \x1b[32mBuilding C object CMakeFiles/custom_interfaces__rosidl_generator_py.dir/rosidl_generator_py/custom_interfaces/action/_move_s.c.o\x1b[0m\n'}
+[45.634030] (-) TimerEvent: {}
+[45.734417] (-) TimerEvent: {}
+[45.835437] (-) TimerEvent: {}
+[45.898626] (custom_interfaces) StdoutLine: {'line': b'[ 87%] \x1b[32mBuilding C object CMakeFiles/custom_interfaces__rosidl_generator_py.dir/rosidl_generator_py/custom_interfaces/srv/_my_custom_service_message_s.c.o\x1b[0m\n'}
+[45.935562] (-) TimerEvent: {}
+[46.035908] (-) TimerEvent: {}
+[46.096201] (custom_interfaces) StdoutLine: {'line': b'[ 89%] \x1b[32m\x1b[1mLinking C shared library rosidl_generator_py/custom_interfaces/libcustom_interfaces__rosidl_generator_py.so\x1b[0m\n'}
+[46.136658] (-) TimerEvent: {}
+[46.191707] (custom_interfaces) StdoutLine: {'line': b'[ 89%] Built target custom_interfaces__rosidl_generator_py\n'}
+[46.233105] (custom_interfaces) StdoutLine: {'line': b'[ 90%] \x1b[32mBuilding C object CMakeFiles/custom_interfaces__rosidl_typesupport_fastrtps_c__pyext.dir/rosidl_generator_py/custom_interfaces/_custom_interfaces_s.ep.rosidl_typesupport_fastrtps_c.c.o\x1b[0m\n'}
+[46.236773] (-) TimerEvent: {}
+[46.337189] (-) TimerEvent: {}
+[46.438972] (-) TimerEvent: {}
+[46.480614] (custom_interfaces) StdoutLine: {'line': b'[ 92%] \x1b[32m\x1b[1mLinking C shared library rosidl_generator_py/custom_interfaces/custom_interfaces_s__rosidl_typesupport_fastrtps_c.cpython-310-x86_64-linux-gnu.so\x1b[0m\n'}
+[46.539205] (-) TimerEvent: {}
+[46.576530] (custom_interfaces) StdoutLine: {'line': b'[ 92%] Built target custom_interfaces__rosidl_typesupport_fastrtps_c__pyext\n'}
+[46.613372] (custom_interfaces) StdoutLine: {'line': b'[ 94%] \x1b[32mBuilding C object CMakeFiles/custom_interfaces__rosidl_typesupport_c__pyext.dir/rosidl_generator_py/custom_interfaces/_custom_interfaces_s.ep.rosidl_typesupport_c.c.o\x1b[0m\n'}
+[46.639648] (-) TimerEvent: {}
+[46.740563] (-) TimerEvent: {}
+[46.842731] (-) TimerEvent: {}
+[46.923093] (custom_interfaces) StdoutLine: {'line': b'[ 96%] \x1b[32m\x1b[1mLinking C shared library rosidl_generator_py/custom_interfaces/custom_interfaces_s__rosidl_typesupport_c.cpython-310-x86_64-linux-gnu.so\x1b[0m\n'}
+[46.943925] (-) TimerEvent: {}
+[47.011194] (custom_interfaces) StdoutLine: {'line': b'[ 96%] Built target custom_interfaces__rosidl_typesupport_c__pyext\n'}
+[47.043139] (custom_interfaces) StdoutLine: {'line': b'[ 98%] \x1b[32mBuilding C object CMakeFiles/custom_interfaces__rosidl_typesupport_introspection_c__pyext.dir/rosidl_generator_py/custom_interfaces/_custom_interfaces_s.ep.rosidl_typesupport_introspection_c.c.o\x1b[0m\n'}
+[47.044033] (-) TimerEvent: {}
+[47.144396] (-) TimerEvent: {}
+[47.245097] (-) TimerEvent: {}
+[47.274707] (custom_interfaces) StdoutLine: {'line': b'[100%] \x1b[32m\x1b[1mLinking C shared library rosidl_generator_py/custom_interfaces/custom_interfaces_s__rosidl_typesupport_introspection_c.cpython-310-x86_64-linux-gnu.so\x1b[0m\n'}
+[47.345785] (-) TimerEvent: {}
+[47.355765] (custom_interfaces) StdoutLine: {'line': b'[100%] Built target custom_interfaces__rosidl_typesupport_introspection_c__pyext\n'}
+[47.376197] (custom_interfaces) CommandEnded: {'returncode': 0}
+[47.445895] (-) TimerEvent: {}
+[47.546226] (-) TimerEvent: {}
+[47.646638] (-) TimerEvent: {}
+[47.746966] (-) TimerEvent: {}
+[47.761928] (custom_interfaces) JobProgress: {'identifier': 'custom_interfaces', 'progress': 'install'}
+[47.777254] (custom_interfaces) Command: {'cmd': ['/usr/bin/cmake', '--install', '/home/user/ros2_ws/build/custom_interfaces'], 'cwd': '/home/user/ros2_ws/build/custom_interfaces', 'env': OrderedDict([('ROS_VERSION', '2'), ('NVIDIA_VISIBLE_DEVICES', 'all'), ('GAZEBO_MASTER_URI', 'http://2_simulation:11345'), ('PKG_CONFIG_PATH', ':/opt/ros/humble/lib/pkgconfig:/opt/ros/humble/lib/x86_64-linux-gnu/pkgconfig:/opt/ros/humble/lib/pkgconfig:/opt/ros/humble/lib/x86_64-linux-gnu/pkgconfig'), ('ROS_PYTHON_VERSION', '3'), ('HOSTNAME', '2_xterm'), ('PWD', '/home/user/ros2_ws/build/custom_interfaces'), ('PORT', '4000'), ('NVIDIA_DRIVER_CAPABILITIES', 'all'), ('ROS_IP', ''), ('HOME', '/home/user'), ('GAZEBO_PLUGIN_PATH', '/usr/lib/x86_64-linux-gnu/gazebo-11/plugins:/usr/lib/x86_64-linux-gnu/gazebo-11/plugins:'), ('LANG', 'en_US.UTF-8'), ('GAZEBO_MODEL_DATABASE_URI', 'http://models.gazebosim.org'), ('LS_COLORS', 'rs=0:di=01;34:ln=01;36:mh=00:pi=40;33:so=01;35:do=01;35:bd=40;33;01:cd=40;33;01:or=40;31;01:mi=00:su=37;41:sg=30;43:ca=30;41:tw=30;42:ow=34;42:st=37;44:ex=01;32:*.tar=01;31:*.tgz=01;31:*.arc=01;31:*.arj=01;31:*.taz=01;31:*.lha=01;31:*.lz4=01;31:*.lzh=01;31:*.lzma=01;31:*.tlz=01;31:*.txz=01;31:*.tzo=01;31:*.t7z=01;31:*.zip=01;31:*.z=01;31:*.dz=01;31:*.gz=01;31:*.lrz=01;31:*.lz=01;31:*.lzo=01;31:*.xz=01;31:*.zst=01;31:*.tzst=01;31:*.bz2=01;31:*.bz=01;31:*.tbz=01;31:*.tbz2=01;31:*.tz=01;31:*.deb=01;31:*.rpm=01;31:*.jar=01;31:*.war=01;31:*.ear=01;31:*.sar=01;31:*.rar=01;31:*.alz=01;31:*.ace=01;31:*.zoo=01;31:*.cpio=01;31:*.7z=01;31:*.rz=01;31:*.cab=01;31:*.wim=01;31:*.swm=01;31:*.dwm=01;31:*.esd=01;31:*.jpg=01;35:*.jpeg=01;35:*.mjpg=01;35:*.mjpeg=01;35:*.gif=01;35:*.bmp=01;35:*.pbm=01;35:*.pgm=01;35:*.ppm=01;35:*.tga=01;35:*.xbm=01;35:*.xpm=01;35:*.tif=01;35:*.tiff=01;35:*.png=01;35:*.svg=01;35:*.svgz=01;35:*.mng=01;35:*.pcx=01;35:*.mov=01;35:*.mpg=01;35:*.mpeg=01;35:*.m2v=01;35:*.mkv=01;35:*.webm=01;35:*.webp=01;35:*.ogm=01;35:*.mp4=01;35:*.m4v=01;35:*.mp4v=01;35:*.vob=01;35:*.qt=01;35:*.nuv=01;35:*.wmv=01;35:*.asf=01;35:*.rm=01;35:*.rmvb=01;35:*.flc=01;35:*.avi=01;35:*.fli=01;35:*.flv=01;35:*.gl=01;35:*.dl=01;35:*.xcf=01;35:*.xwd=01;35:*.yuv=01;35:*.cgm=01;35:*.emf=01;35:*.ogv=01;35:*.ogx=01;35:*.aac=00;36:*.au=00;36:*.flac=00;36:*.m4a=00;36:*.mid=00;36:*.midi=00;36:*.mka=00;36:*.mp3=00;36:*.mpc=00;36:*.ogg=00;36:*.ra=00;36:*.wav=00;36:*.oga=00;36:*.opus=00;36:*.spx=00;36:*.xspf=00;36:'), ('AMENT_PREFIX_PATH', '/opt/ros/humble'), ('CMAKE_PREFIX_PATH', ':/opt/ros/humble:/opt/ros/humble'), ('GAZEBO_RESOURCE_PATH', '/usr/share/gazebo-11:/usr/share/gazebo-11:/usr/share/gazebo'), ('GAZEBO_MASTER_PORT', '11345'), ('NVM_DIR', '/usr/local/share/shell/.nvm'), ('LESSCLOSE', '/usr/bin/lesspipe %s %s'), ('PYTHONPATH', '/opt/ros/humble/lib/python3.10/site-packages:/opt/ros/humble/local/lib/python3.10/dist-packages:/home/simulations/public_sim_ws/src/all/ros_basics_examples/python_course_class:/home/simulations/public_sim_ws/src/ros_basics_examples/python_course_class:/home/simulations/public_sim_ws/src/all/kinematics_course_utils/kinematics'), ('COLCON', '1'), ('TERM', 'xterm-color'), ('LESSOPEN', '| /usr/bin/lesspipe %s'), ('SNAPCRAFT_BUILD_ENVIRONMENT', 'host'), ('GAZEBO_MASTER_HOSTNAME', '2_simulation'), ('DISPLAY', ':1'), ('SHLVL', '2'), ('NVM_CD_FLAGS', ''), ('ROS_MASTER_URI', 'http://2_simulation:11311'), ('ROS_HOSTNAME', '2_xterm'), ('LD_LIBRARY_PATH', '/home/user/catkin_ws/devel/lib:/home/simulations/public_sim_ws/devel/lib:/opt/ros/humble/lib:/opt/ros/humble/lib/x86_64-linux-gnu:/usr/local/cuda-10.2/lib64:/home/user/.catkin_ws_python3/src/TensorRT-7.0.0.11/lib:/home/user/catkin_ws/devel/lib:/home/simulations/public_sim_ws/devel/lib:/opt/ros/humble/lib:/opt/ros/humble/lib/x86_64-linux-gnu:/opt/ros/humble/opt/rviz_ogre_vendor/lib:/opt/ros/humble/lib/x86_64-linux-gnu:/opt/ros/humble/lib:/usr/local/cuda-10.2/lib64:/home/user/.catkin_ws_python3/src/TensorRT-7.0.0.11/lib::/usr/lib/x86_64-linux-gnu/gazebo-11/plugins::/usr/lib/x86_64-linux-gnu/gazebo-11/plugins:/usr/lib/x86_64-linux-gnu/gazebo-11/plugins:'), ('ROS_LOCALHOST_ONLY', '0'), ('SLOT_SHELL_START_ID', '0'), ('SLOT_PREFIX', 'e1a39ae2-1c27-4135-a9df-a681ef511752'), ('LC_ALL', 'C'), ('SOURCE_ROS1_WS', 'True'), ('GAZEBO_MODEL_PATH', '/usr/share/gazebo-11/models:/usr/share/gazebo-11/models:/usr/share/gazebo-9/models:/usr/share/gazebo/models_robox'), ('SLOT_JENKINS_PORT', '25344'), ('SLOT_SYSTEMD', 'False'), ('PATH', '/opt/ros/humble/bin:/opt/ros/humble/bin:/opt/ros/humble/bin:/usr/local/share/shell/.nvm/versions/node/v8.17.0/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin:/home/user/.cargo/bin:/home/user/.cargo/bin'), ('SELECTED_ROS_DISTRO', 'humble'), ('NVM_BIN', '/usr/local/share/shell/.nvm/versions/node/v8.17.0/bin'), ('NODE_VERSION', 'v8.17.0'), ('DEBIAN_FRONTEND', 'noninteractive'), ('ROS_DISTRO', 'humble'), ('GAZEBO_VERBOSE', '0'), ('OGRE_RESOURCE_PATH', '/usr/lib/x86_64-linux-gnu/OGRE-1.9.0'), ('OLDPWD', '/home/user/ros2_ws/src'), ('SOURCE_ROS2_WS', ''), ('SLOT_ROSBRIDGE_PORT', '20002'), ('_', '/usr/bin/env')]), 'shell': False}
+[47.793532] (custom_interfaces) StdoutLine: {'line': b'-- Install configuration: ""\n'}
+[47.796165] (custom_interfaces) StdoutLine: {'line': b'-- Installing: /home/user/ros2_ws/install/custom_interfaces/share/ament_index/resource_index/rosidl_interfaces/custom_interfaces\n'}
+[47.796506] (custom_interfaces) StdoutLine: {'line': b'-- Installing: /home/user/ros2_ws/install/custom_interfaces/include/custom_interfaces/custom_interfaces\n'}
+[47.796649] (custom_interfaces) StdoutLine: {'line': b'-- Installing: /home/user/ros2_ws/install/custom_interfaces/include/custom_interfaces/custom_interfaces/srv\n'}
+[47.796820] (custom_interfaces) StdoutLine: {'line': b'-- Installing: /home/user/ros2_ws/install/custom_interfaces/include/custom_interfaces/custom_interfaces/srv/detail\n'}
+[47.796943] (custom_interfaces) StdoutLine: {'line': b'-- Installing: /home/user/ros2_ws/install/custom_interfaces/include/custom_interfaces/custom_interfaces/srv/detail/my_custom_service_message__type_support.h\n'}
+[47.797054] (custom_interfaces) StdoutLine: {'line': b'-- Installing: /home/user/ros2_ws/install/custom_interfaces/include/custom_interfaces/custom_interfaces/srv/detail/my_custom_service_message__functions.h\n'}
+[47.797176] (custom_interfaces) StdoutLine: {'line': b'-- Installing: /home/user/ros2_ws/install/custom_interfaces/include/custom_interfaces/custom_interfaces/srv/detail/my_custom_service_message__functions.c\n'}
+[47.797284] (custom_interfaces) StdoutLine: {'line': b'-- Installing: /home/user/ros2_ws/install/custom_interfaces/include/custom_interfaces/custom_interfaces/srv/detail/my_custom_service_message__struct.h\n'}
+[47.797389] (custom_interfaces) StdoutLine: {'line': b'-- Installing: /home/user/ros2_ws/install/custom_interfaces/include/custom_interfaces/custom_interfaces/srv/my_custom_service_message.h\n'}
+[47.797749] (custom_interfaces) StdoutLine: {'line': b'-- Installing: /home/user/ros2_ws/install/custom_interfaces/include/custom_interfaces/custom_interfaces/msg\n'}
+[47.798096] (custom_interfaces) StdoutLine: {'line': b'-- Installing: /home/user/ros2_ws/install/custom_interfaces/include/custom_interfaces/custom_interfaces/msg/detail\n'}
+[47.798353] (custom_interfaces) StdoutLine: {'line': b'-- Installing: /home/user/ros2_ws/install/custom_interfaces/include/custom_interfaces/custom_interfaces/msg/detail/age__functions.c\n'}
+[47.798837] (custom_interfaces) StdoutLine: {'line': b'-- Installing: /home/user/ros2_ws/install/custom_interfaces/include/custom_interfaces/custom_interfaces/msg/detail/age__struct.h\n'}
+[47.799038] (custom_interfaces) StdoutLine: {'line': b'-- Installing: /home/user/ros2_ws/install/custom_interfaces/include/custom_interfaces/custom_interfaces/msg/detail/age__functions.h\n'}
+[47.799257] (custom_interfaces) StdoutLine: {'line': b'-- Installing: /home/user/ros2_ws/install/custom_interfaces/include/custom_interfaces/custom_interfaces/msg/detail/age__type_support.h\n'}
+[47.799493] (custom_interfaces) StdoutLine: {'line': b'-- Installing: /home/user/ros2_ws/install/custom_interfaces/include/custom_interfaces/custom_interfaces/msg/detail/rover_events__struct.h\n'}
+[47.799685] (custom_interfaces) StdoutLine: {'line': b'-- Installing: /home/user/ros2_ws/install/custom_interfaces/include/custom_interfaces/custom_interfaces/msg/detail/rover_events__functions.c\n'}
+[47.799903] (custom_interfaces) StdoutLine: {'line': b'-- Installing: /home/user/ros2_ws/install/custom_interfaces/include/custom_interfaces/custom_interfaces/msg/detail/rover_events__type_support.h\n'}
+[47.800076] (custom_interfaces) StdoutLine: {'line': b'-- Installing: /home/user/ros2_ws/install/custom_interfaces/include/custom_interfaces/custom_interfaces/msg/detail/rover_events__functions.h\n'}
+[47.800195] (custom_interfaces) StdoutLine: {'line': b'-- Installing: /home/user/ros2_ws/install/custom_interfaces/include/custom_interfaces/custom_interfaces/msg/rosidl_generator_c__visibility_control.h\n'}
+[47.800471] (custom_interfaces) StdoutLine: {'line': b'-- Installing: /home/user/ros2_ws/install/custom_interfaces/include/custom_interfaces/custom_interfaces/msg/rover_events.h\n'}
+[47.800659] (custom_interfaces) StdoutLine: {'line': b'-- Installing: /home/user/ros2_ws/install/custom_interfaces/include/custom_interfaces/custom_interfaces/msg/age.h\n'}
+[47.800754] (custom_interfaces) StdoutLine: {'line': b'-- Installing: /home/user/ros2_ws/install/custom_interfaces/include/custom_interfaces/custom_interfaces/action\n'}
+[47.800965] (custom_interfaces) StdoutLine: {'line': b'-- Installing: /home/user/ros2_ws/install/custom_interfaces/include/custom_interfaces/custom_interfaces/action/detail\n'}
+[47.801123] (custom_interfaces) StdoutLine: {'line': b'-- Installing: /home/user/ros2_ws/install/custom_interfaces/include/custom_interfaces/custom_interfaces/action/detail/move__functions.h\n'}
+[47.801286] (custom_interfaces) StdoutLine: {'line': b'-- Installing: /home/user/ros2_ws/install/custom_interfaces/include/custom_interfaces/custom_interfaces/action/detail/move__functions.c\n'}
+[47.801470] (custom_interfaces) StdoutLine: {'line': b'-- Installing: /home/user/ros2_ws/install/custom_interfaces/include/custom_interfaces/custom_interfaces/action/detail/move__type_support.h\n'}
+[47.801708] (custom_interfaces) StdoutLine: {'line': b'-- Installing: /home/user/ros2_ws/install/custom_interfaces/include/custom_interfaces/custom_interfaces/action/detail/move__struct.h\n'}
+[47.801838] (custom_interfaces) StdoutLine: {'line': b'-- Installing: /home/user/ros2_ws/install/custom_interfaces/include/custom_interfaces/custom_interfaces/action/move.h\n'}
+[47.801978] (custom_interfaces) StdoutLine: {'line': b'-- Installing: /home/user/ros2_ws/install/custom_interfaces/share/custom_interfaces/environment/library_path.sh\n'}
+[47.802648] (custom_interfaces) StdoutLine: {'line': b'-- Installing: /home/user/ros2_ws/install/custom_interfaces/share/custom_interfaces/environment/library_path.dsv\n'}
+[47.802854] (custom_interfaces) StdoutLine: {'line': b'-- Installing: /home/user/ros2_ws/install/custom_interfaces/lib/libcustom_interfaces__rosidl_generator_c.so\n'}
+[47.803433] (custom_interfaces) StdoutLine: {'line': b'-- Set runtime path of "/home/user/ros2_ws/install/custom_interfaces/lib/libcustom_interfaces__rosidl_generator_c.so" to ""\n'}
+[47.804081] (custom_interfaces) StdoutLine: {'line': b'-- Up-to-date: /home/user/ros2_ws/install/custom_interfaces/include/custom_interfaces/custom_interfaces\n'}
+[47.804993] (custom_interfaces) StdoutLine: {'line': b'-- Up-to-date: /home/user/ros2_ws/install/custom_interfaces/include/custom_interfaces/custom_interfaces/srv\n'}
+[47.805218] (custom_interfaces) StdoutLine: {'line': b'-- Up-to-date: /home/user/ros2_ws/install/custom_interfaces/include/custom_interfaces/custom_interfaces/srv/detail\n'}
+[47.805337] (custom_interfaces) StdoutLine: {'line': b'-- Installing: /home/user/ros2_ws/install/custom_interfaces/include/custom_interfaces/custom_interfaces/srv/detail/my_custom_service_message__rosidl_typesupport_fastrtps_c.h\n'}
+[47.805451] (custom_interfaces) StdoutLine: {'line': b'-- Up-to-date: /home/user/ros2_ws/install/custom_interfaces/include/custom_interfaces/custom_interfaces/msg\n'}
+[47.805551] (custom_interfaces) StdoutLine: {'line': b'-- Up-to-date: /home/user/ros2_ws/install/custom_interfaces/include/custom_interfaces/custom_interfaces/msg/detail\n'}
+[47.805659] (custom_interfaces) StdoutLine: {'line': b'-- Installing: /home/user/ros2_ws/install/custom_interfaces/include/custom_interfaces/custom_interfaces/msg/detail/rover_events__rosidl_typesupport_fastrtps_c.h\n'}
+[47.805768] (custom_interfaces) StdoutLine: {'line': b'-- Installing: /home/user/ros2_ws/install/custom_interfaces/include/custom_interfaces/custom_interfaces/msg/detail/age__rosidl_typesupport_fastrtps_c.h\n'}
+[47.806321] (custom_interfaces) StdoutLine: {'line': b'-- Installing: /home/user/ros2_ws/install/custom_interfaces/include/custom_interfaces/custom_interfaces/msg/rosidl_typesupport_fastrtps_c__visibility_control.h\n'}
+[47.806651] (custom_interfaces) StdoutLine: {'line': b'-- Up-to-date: /home/user/ros2_ws/install/custom_interfaces/include/custom_interfaces/custom_interfaces/action\n'}
+[47.806758] (custom_interfaces) StdoutLine: {'line': b'-- Up-to-date: /home/user/ros2_ws/install/custom_interfaces/include/custom_interfaces/custom_interfaces/action/detail\n'}
+[47.806907] (custom_interfaces) StdoutLine: {'line': b'-- Installing: /home/user/ros2_ws/install/custom_interfaces/include/custom_interfaces/custom_interfaces/action/detail/move__rosidl_typesupport_fastrtps_c.h\n'}
+[47.807065] (custom_interfaces) StdoutLine: {'line': b'-- Installing: /home/user/ros2_ws/install/custom_interfaces/lib/libcustom_interfaces__rosidl_typesupport_fastrtps_c.so\n'}
+[47.807273] (custom_interfaces) StdoutLine: {'line': b'-- Set runtime path of "/home/user/ros2_ws/install/custom_interfaces/lib/libcustom_interfaces__rosidl_typesupport_fastrtps_c.so" to ""\n'}
+[47.807954] (custom_interfaces) StdoutLine: {'line': b'-- Up-to-date: /home/user/ros2_ws/install/custom_interfaces/include/custom_interfaces/custom_interfaces\n'}
+[47.809074] (custom_interfaces) StdoutLine: {'line': b'-- Up-to-date: /home/user/ros2_ws/install/custom_interfaces/include/custom_interfaces/custom_interfaces/srv\n'}
+[47.810184] (custom_interfaces) StdoutLine: {'line': b'-- Up-to-date: /home/user/ros2_ws/install/custom_interfaces/include/custom_interfaces/custom_interfaces/srv/detail\n'}
+[47.810780] (custom_interfaces) StdoutLine: {'line': b'-- Installing: /home/user/ros2_ws/install/custom_interfaces/include/custom_interfaces/custom_interfaces/srv/detail/my_custom_service_message__traits.hpp\n'}
+[47.810984] (custom_interfaces) StdoutLine: {'line': b'-- Installing: /home/user/ros2_ws/install/custom_interfaces/include/custom_interfaces/custom_interfaces/srv/detail/my_custom_service_message__builder.hpp\n'}
+[47.811209] (custom_interfaces) StdoutLine: {'line': b'-- Installing: /home/user/ros2_ws/install/custom_interfaces/include/custom_interfaces/custom_interfaces/srv/detail/my_custom_service_message__struct.hpp\n'}
+[47.811656] (custom_interfaces) StdoutLine: {'line': b'-- Installing: /home/user/ros2_ws/install/custom_interfaces/include/custom_interfaces/custom_interfaces/srv/my_custom_service_message.hpp\n'}
+[47.811759] (custom_interfaces) StdoutLine: {'line': b'-- Up-to-date: /home/user/ros2_ws/install/custom_interfaces/include/custom_interfaces/custom_interfaces/msg\n'}
+[47.811864] (custom_interfaces) StdoutLine: {'line': b'-- Up-to-date: /home/user/ros2_ws/install/custom_interfaces/include/custom_interfaces/custom_interfaces/msg/detail\n'}
+[47.811957] (custom_interfaces) StdoutLine: {'line': b'-- Installing: /home/user/ros2_ws/install/custom_interfaces/include/custom_interfaces/custom_interfaces/msg/detail/rover_events__traits.hpp\n'}
+[47.812028] (custom_interfaces) StdoutLine: {'line': b'-- Installing: /home/user/ros2_ws/install/custom_interfaces/include/custom_interfaces/custom_interfaces/msg/detail/age__traits.hpp\n'}
+[47.812129] (custom_interfaces) StdoutLine: {'line': b'-- Installing: /home/user/ros2_ws/install/custom_interfaces/include/custom_interfaces/custom_interfaces/msg/detail/age__struct.hpp\n'}
+[47.812399] (custom_interfaces) StdoutLine: {'line': b'-- Installing: /home/user/ros2_ws/install/custom_interfaces/include/custom_interfaces/custom_interfaces/msg/detail/rover_events__builder.hpp\n'}
+[47.812615] (custom_interfaces) StdoutLine: {'line': b'-- Installing: /home/user/ros2_ws/install/custom_interfaces/include/custom_interfaces/custom_interfaces/msg/detail/rover_events__struct.hpp\n'}
+[47.812737] (custom_interfaces) StdoutLine: {'line': b'-- Installing: /home/user/ros2_ws/install/custom_interfaces/include/custom_interfaces/custom_interfaces/msg/detail/age__builder.hpp\n'}
+[47.812875] (custom_interfaces) StdoutLine: {'line': b'-- Installing: /home/user/ros2_ws/install/custom_interfaces/include/custom_interfaces/custom_interfaces/msg/age.hpp\n'}
+[47.813063] (custom_interfaces) StdoutLine: {'line': b'-- Installing: /home/user/ros2_ws/install/custom_interfaces/include/custom_interfaces/custom_interfaces/msg/rover_events.hpp\n'}
+[47.813214] (custom_interfaces) StdoutLine: {'line': b'-- Up-to-date: /home/user/ros2_ws/install/custom_interfaces/include/custom_interfaces/custom_interfaces/action\n'}
+[47.813310] (custom_interfaces) StdoutLine: {'line': b'-- Up-to-date: /home/user/ros2_ws/install/custom_interfaces/include/custom_interfaces/custom_interfaces/action/detail\n'}
+[47.813411] (custom_interfaces) StdoutLine: {'line': b'-- Installing: /home/user/ros2_ws/install/custom_interfaces/include/custom_interfaces/custom_interfaces/action/detail/move__traits.hpp\n'}
+[47.814090] (custom_interfaces) StdoutLine: {'line': b'-- Installing: /home/user/ros2_ws/install/custom_interfaces/include/custom_interfaces/custom_interfaces/action/detail/move__struct.hpp\n'}
+[47.814270] (custom_interfaces) StdoutLine: {'line': b'-- Installing: /home/user/ros2_ws/install/custom_interfaces/include/custom_interfaces/custom_interfaces/action/detail/move__builder.hpp\n'}
+[47.814403] (custom_interfaces) StdoutLine: {'line': b'-- Installing: /home/user/ros2_ws/install/custom_interfaces/include/custom_interfaces/custom_interfaces/action/move.hpp\n'}
+[47.814496] (custom_interfaces) StdoutLine: {'line': b'-- Up-to-date: /home/user/ros2_ws/install/custom_interfaces/include/custom_interfaces/custom_interfaces\n'}
+[47.814638] (custom_interfaces) StdoutLine: {'line': b'-- Up-to-date: /home/user/ros2_ws/install/custom_interfaces/include/custom_interfaces/custom_interfaces/srv\n'}
+[47.814735] (custom_interfaces) StdoutLine: {'line': b'-- Up-to-date: /home/user/ros2_ws/install/custom_interfaces/include/custom_interfaces/custom_interfaces/srv/detail\n'}
+[47.814839] (custom_interfaces) StdoutLine: {'line': b'-- Installing: /home/user/ros2_ws/install/custom_interfaces/include/custom_interfaces/custom_interfaces/srv/detail/dds_fastrtps\n'}
+[47.814958] (custom_interfaces) StdoutLine: {'line': b'-- Installing: /home/user/ros2_ws/install/custom_interfaces/include/custom_interfaces/custom_interfaces/srv/detail/my_custom_service_message__rosidl_typesupport_fastrtps_cpp.hpp\n'}
+[47.815049] (custom_interfaces) StdoutLine: {'line': b'-- Up-to-date: /home/user/ros2_ws/install/custom_interfaces/include/custom_interfaces/custom_interfaces/msg\n'}
+[47.815135] (custom_interfaces) StdoutLine: {'line': b'-- Up-to-date: /home/user/ros2_ws/install/custom_interfaces/include/custom_interfaces/custom_interfaces/msg/detail\n'}
+[47.815235] (custom_interfaces) StdoutLine: {'line': b'-- Installing: /home/user/ros2_ws/install/custom_interfaces/include/custom_interfaces/custom_interfaces/msg/detail/age__rosidl_typesupport_fastrtps_cpp.hpp\n'}
+[47.815335] (custom_interfaces) StdoutLine: {'line': b'-- Installing: /home/user/ros2_ws/install/custom_interfaces/include/custom_interfaces/custom_interfaces/msg/detail/dds_fastrtps\n'}
+[47.815441] (custom_interfaces) StdoutLine: {'line': b'-- Installing: /home/user/ros2_ws/install/custom_interfaces/include/custom_interfaces/custom_interfaces/msg/detail/rover_events__rosidl_typesupport_fastrtps_cpp.hpp\n'}
+[47.815563] (custom_interfaces) StdoutLine: {'line': b'-- Installing: /home/user/ros2_ws/install/custom_interfaces/include/custom_interfaces/custom_interfaces/msg/rosidl_typesupport_fastrtps_cpp__visibility_control.h\n'}
+[47.815703] (custom_interfaces) StdoutLine: {'line': b'-- Up-to-date: /home/user/ros2_ws/install/custom_interfaces/include/custom_interfaces/custom_interfaces/action\n'}
+[47.815795] (custom_interfaces) StdoutLine: {'line': b'-- Up-to-date: /home/user/ros2_ws/install/custom_interfaces/include/custom_interfaces/custom_interfaces/action/detail\n'}
+[47.815897] (custom_interfaces) StdoutLine: {'line': b'-- Installing: /home/user/ros2_ws/install/custom_interfaces/include/custom_interfaces/custom_interfaces/action/detail/dds_fastrtps\n'}
+[47.815998] (custom_interfaces) StdoutLine: {'line': b'-- Installing: /home/user/ros2_ws/install/custom_interfaces/include/custom_interfaces/custom_interfaces/action/detail/move__rosidl_typesupport_fastrtps_cpp.hpp\n'}
+[47.816089] (custom_interfaces) StdoutLine: {'line': b'-- Installing: /home/user/ros2_ws/install/custom_interfaces/lib/libcustom_interfaces__rosidl_typesupport_fastrtps_cpp.so\n'}
+[47.816247] (custom_interfaces) StdoutLine: {'line': b'-- Set runtime path of "/home/user/ros2_ws/install/custom_interfaces/lib/libcustom_interfaces__rosidl_typesupport_fastrtps_cpp.so" to ""\n'}
+[47.816464] (custom_interfaces) StdoutLine: {'line': b'-- Up-to-date: /home/user/ros2_ws/install/custom_interfaces/include/custom_interfaces/custom_interfaces\n'}
+[47.816609] (custom_interfaces) StdoutLine: {'line': b'-- Up-to-date: /home/user/ros2_ws/install/custom_interfaces/include/custom_interfaces/custom_interfaces/srv\n'}
+[47.816736] (custom_interfaces) StdoutLine: {'line': b'-- Up-to-date: /home/user/ros2_ws/install/custom_interfaces/include/custom_interfaces/custom_interfaces/srv/detail\n'}
+[47.816915] (custom_interfaces) StdoutLine: {'line': b'-- Installing: /home/user/ros2_ws/install/custom_interfaces/include/custom_interfaces/custom_interfaces/srv/detail/my_custom_service_message__type_support.c\n'}
+[47.817113] (custom_interfaces) StdoutLine: {'line': b'-- Installing: /home/user/ros2_ws/install/custom_interfaces/include/custom_interfaces/custom_interfaces/srv/detail/my_custom_service_message__rosidl_typesupport_introspection_c.h\n'}
+[47.817274] (custom_interfaces) StdoutLine: {'line': b'-- Up-to-date: /home/user/ros2_ws/install/custom_interfaces/include/custom_interfaces/custom_interfaces/msg\n'}
+[47.817424] (custom_interfaces) StdoutLine: {'line': b'-- Up-to-date: /home/user/ros2_ws/install/custom_interfaces/include/custom_interfaces/custom_interfaces/msg/detail\n'}
+[47.817546] (custom_interfaces) StdoutLine: {'line': b'-- Installing: /home/user/ros2_ws/install/custom_interfaces/include/custom_interfaces/custom_interfaces/msg/detail/age__type_support.c\n'}
+[47.817837] (custom_interfaces) StdoutLine: {'line': b'-- Installing: /home/user/ros2_ws/install/custom_interfaces/include/custom_interfaces/custom_interfaces/msg/detail/rover_events__type_support.c\n'}
+[47.817989] (custom_interfaces) StdoutLine: {'line': b'-- Installing: /home/user/ros2_ws/install/custom_interfaces/include/custom_interfaces/custom_interfaces/msg/detail/age__rosidl_typesupport_introspection_c.h\n'}
+[47.818091] (custom_interfaces) StdoutLine: {'line': b'-- Installing: /home/user/ros2_ws/install/custom_interfaces/include/custom_interfaces/custom_interfaces/msg/detail/rover_events__rosidl_typesupport_introspection_c.h\n'}
+[47.818193] (custom_interfaces) StdoutLine: {'line': b'-- Installing: /home/user/ros2_ws/install/custom_interfaces/include/custom_interfaces/custom_interfaces/msg/rosidl_typesupport_introspection_c__visibility_control.h\n'}
+[47.818341] (custom_interfaces) StdoutLine: {'line': b'-- Up-to-date: /home/user/ros2_ws/install/custom_interfaces/include/custom_interfaces/custom_interfaces/action\n'}
+[47.818433] (custom_interfaces) StdoutLine: {'line': b'-- Up-to-date: /home/user/ros2_ws/install/custom_interfaces/include/custom_interfaces/custom_interfaces/action/detail\n'}
+[47.818524] (custom_interfaces) StdoutLine: {'line': b'-- Installing: /home/user/ros2_ws/install/custom_interfaces/include/custom_interfaces/custom_interfaces/action/detail/move__rosidl_typesupport_introspection_c.h\n'}
+[47.818610] (custom_interfaces) StdoutLine: {'line': b'-- Installing: /home/user/ros2_ws/install/custom_interfaces/include/custom_interfaces/custom_interfaces/action/detail/move__type_support.c\n'}
+[47.818692] (custom_interfaces) StdoutLine: {'line': b'-- Installing: /home/user/ros2_ws/install/custom_interfaces/lib/libcustom_interfaces__rosidl_typesupport_introspection_c.so\n'}
+[47.818775] (custom_interfaces) StdoutLine: {'line': b'-- Set runtime path of "/home/user/ros2_ws/install/custom_interfaces/lib/libcustom_interfaces__rosidl_typesupport_introspection_c.so" to ""\n'}
+[47.818934] (custom_interfaces) StdoutLine: {'line': b'-- Installing: /home/user/ros2_ws/install/custom_interfaces/lib/libcustom_interfaces__rosidl_typesupport_c.so\n'}
+[47.819070] (custom_interfaces) StdoutLine: {'line': b'-- Set runtime path of "/home/user/ros2_ws/install/custom_interfaces/lib/libcustom_interfaces__rosidl_typesupport_c.so" to ""\n'}
+[47.819161] (custom_interfaces) StdoutLine: {'line': b'-- Up-to-date: /home/user/ros2_ws/install/custom_interfaces/include/custom_interfaces/custom_interfaces\n'}
+[47.819252] (custom_interfaces) StdoutLine: {'line': b'-- Up-to-date: /home/user/ros2_ws/install/custom_interfaces/include/custom_interfaces/custom_interfaces/srv\n'}
+[47.819362] (custom_interfaces) StdoutLine: {'line': b'-- Up-to-date: /home/user/ros2_ws/install/custom_interfaces/include/custom_interfaces/custom_interfaces/srv/detail\n'}
+[47.819546] (custom_interfaces) StdoutLine: {'line': b'-- Installing: /home/user/ros2_ws/install/custom_interfaces/include/custom_interfaces/custom_interfaces/srv/detail/my_custom_service_message__type_support.cpp\n'}
+[47.819659] (custom_interfaces) StdoutLine: {'line': b'-- Installing: /home/user/ros2_ws/install/custom_interfaces/include/custom_interfaces/custom_interfaces/srv/detail/my_custom_service_message__rosidl_typesupport_introspection_cpp.hpp\n'}
+[47.819752] (custom_interfaces) StdoutLine: {'line': b'-- Up-to-date: /home/user/ros2_ws/install/custom_interfaces/include/custom_interfaces/custom_interfaces/msg\n'}
+[47.819931] (custom_interfaces) StdoutLine: {'line': b'-- Up-to-date: /home/user/ros2_ws/install/custom_interfaces/include/custom_interfaces/custom_interfaces/msg/detail\n'}
+[47.820019] (custom_interfaces) StdoutLine: {'line': b'-- Installing: /home/user/ros2_ws/install/custom_interfaces/include/custom_interfaces/custom_interfaces/msg/detail/rover_events__type_support.cpp\n'}
+[47.820527] (custom_interfaces) StdoutLine: {'line': b'-- Installing: /home/user/ros2_ws/install/custom_interfaces/include/custom_interfaces/custom_interfaces/msg/detail/rover_events__rosidl_typesupport_introspection_cpp.hpp\n'}
+[47.820632] (custom_interfaces) StdoutLine: {'line': b'-- Installing: /home/user/ros2_ws/install/custom_interfaces/include/custom_interfaces/custom_interfaces/msg/detail/age__rosidl_typesupport_introspection_cpp.hpp\n'}
+[47.820786] (custom_interfaces) StdoutLine: {'line': b'-- Installing: /home/user/ros2_ws/install/custom_interfaces/include/custom_interfaces/custom_interfaces/msg/detail/age__type_support.cpp\n'}
+[47.820976] (custom_interfaces) StdoutLine: {'line': b'-- Up-to-date: /home/user/ros2_ws/install/custom_interfaces/include/custom_interfaces/custom_interfaces/action\n'}
+[47.821061] (custom_interfaces) StdoutLine: {'line': b'-- Up-to-date: /home/user/ros2_ws/install/custom_interfaces/include/custom_interfaces/custom_interfaces/action/detail\n'}
+[47.821145] (custom_interfaces) StdoutLine: {'line': b'-- Installing: /home/user/ros2_ws/install/custom_interfaces/include/custom_interfaces/custom_interfaces/action/detail/move__rosidl_typesupport_introspection_cpp.hpp\n'}
+[47.821323] (custom_interfaces) StdoutLine: {'line': b'-- Installing: /home/user/ros2_ws/install/custom_interfaces/include/custom_interfaces/custom_interfaces/action/detail/move__type_support.cpp\n'}
+[47.821438] (custom_interfaces) StdoutLine: {'line': b'-- Installing: /home/user/ros2_ws/install/custom_interfaces/lib/libcustom_interfaces__rosidl_typesupport_introspection_cpp.so\n'}
+[47.821552] (custom_interfaces) StdoutLine: {'line': b'-- Set runtime path of "/home/user/ros2_ws/install/custom_interfaces/lib/libcustom_interfaces__rosidl_typesupport_introspection_cpp.so" to ""\n'}
+[47.821638] (custom_interfaces) StdoutLine: {'line': b'-- Installing: /home/user/ros2_ws/install/custom_interfaces/lib/libcustom_interfaces__rosidl_typesupport_cpp.so\n'}
+[47.821821] (custom_interfaces) StdoutLine: {'line': b'-- Set runtime path of "/home/user/ros2_ws/install/custom_interfaces/lib/libcustom_interfaces__rosidl_typesupport_cpp.so" to ""\n'}
+[47.821884] (custom_interfaces) StdoutLine: {'line': b'-- Installing: /home/user/ros2_ws/install/custom_interfaces/share/custom_interfaces/environment/pythonpath.sh\n'}
+[47.821978] (custom_interfaces) StdoutLine: {'line': b'-- Installing: /home/user/ros2_ws/install/custom_interfaces/share/custom_interfaces/environment/pythonpath.dsv\n'}
+[47.822082] (custom_interfaces) StdoutLine: {'line': b'-- Installing: /home/user/ros2_ws/install/custom_interfaces/local/lib/python3.10/dist-packages/custom_interfaces-0.0.0-py3.10.egg-info\n'}
+[47.822181] (custom_interfaces) StdoutLine: {'line': b'-- Installing: /home/user/ros2_ws/install/custom_interfaces/local/lib/python3.10/dist-packages/custom_interfaces-0.0.0-py3.10.egg-info/PKG-INFO\n'}
+[47.822271] (custom_interfaces) StdoutLine: {'line': b'-- Installing: /home/user/ros2_ws/install/custom_interfaces/local/lib/python3.10/dist-packages/custom_interfaces-0.0.0-py3.10.egg-info/top_level.txt\n'}
+[47.822994] (custom_interfaces) StdoutLine: {'line': b'-- Installing: /home/user/ros2_ws/install/custom_interfaces/local/lib/python3.10/dist-packages/custom_interfaces-0.0.0-py3.10.egg-info/SOURCES.txt\n'}
+[47.823135] (custom_interfaces) StdoutLine: {'line': b'-- Installing: /home/user/ros2_ws/install/custom_interfaces/local/lib/python3.10/dist-packages/custom_interfaces-0.0.0-py3.10.egg-info/dependency_links.txt\n'}
+[47.823236] (custom_interfaces) StdoutLine: {'line': b'-- Installing: /home/user/ros2_ws/install/custom_interfaces/local/lib/python3.10/dist-packages/custom_interfaces\n'}
+[47.823390] (custom_interfaces) StdoutLine: {'line': b'-- Installing: /home/user/ros2_ws/install/custom_interfaces/local/lib/python3.10/dist-packages/custom_interfaces/srv\n'}
+[47.823527] (custom_interfaces) StdoutLine: {'line': b'-- Installing: /home/user/ros2_ws/install/custom_interfaces/local/lib/python3.10/dist-packages/custom_interfaces/srv/_my_custom_service_message_s.c\n'}
+[47.823631] (custom_interfaces) StdoutLine: {'line': b'-- Installing: /home/user/ros2_ws/install/custom_interfaces/local/lib/python3.10/dist-packages/custom_interfaces/srv/__init__.py\n'}
+[47.823734] (custom_interfaces) StdoutLine: {'line': b'-- Installing: /home/user/ros2_ws/install/custom_interfaces/local/lib/python3.10/dist-packages/custom_interfaces/srv/_my_custom_service_message.py\n'}
+[47.823904] (custom_interfaces) StdoutLine: {'line': b'-- Installing: /home/user/ros2_ws/install/custom_interfaces/local/lib/python3.10/dist-packages/custom_interfaces/custom_interfaces_s__rosidl_typesupport_introspection_c.cpython-310-x86_64-linux-gnu.so\n'}
+[47.824000] (custom_interfaces) StdoutLine: {'line': b'-- Installing: /home/user/ros2_ws/install/custom_interfaces/local/lib/python3.10/dist-packages/custom_interfaces/msg\n'}
+[47.824123] (custom_interfaces) StdoutLine: {'line': b'-- Installing: /home/user/ros2_ws/install/custom_interfaces/local/lib/python3.10/dist-packages/custom_interfaces/msg/_age_s.c\n'}
+[47.824211] (custom_interfaces) StdoutLine: {'line': b'-- Installing: /home/user/ros2_ws/install/custom_interfaces/local/lib/python3.10/dist-packages/custom_interfaces/msg/_rover_events.py\n'}
+[47.824327] (custom_interfaces) StdoutLine: {'line': b'-- Installing: /home/user/ros2_ws/install/custom_interfaces/local/lib/python3.10/dist-packages/custom_interfaces/msg/_age.py\n'}
+[47.824475] (custom_interfaces) StdoutLine: {'line': b'-- Installing: /home/user/ros2_ws/install/custom_interfaces/local/lib/python3.10/dist-packages/custom_interfaces/msg/__init__.py\n'}
+[47.824576] (custom_interfaces) StdoutLine: {'line': b'-- Installing: /home/user/ros2_ws/install/custom_interfaces/local/lib/python3.10/dist-packages/custom_interfaces/msg/_rover_events_s.c\n'}
+[47.824715] (custom_interfaces) StdoutLine: {'line': b'-- Installing: /home/user/ros2_ws/install/custom_interfaces/local/lib/python3.10/dist-packages/custom_interfaces/_custom_interfaces_s.ep.rosidl_typesupport_introspection_c.c\n'}
+[47.824849] (custom_interfaces) StdoutLine: {'line': b'-- Installing: /home/user/ros2_ws/install/custom_interfaces/local/lib/python3.10/dist-packages/custom_interfaces/libcustom_interfaces__rosidl_generator_py.so\n'}
+[47.824951] (custom_interfaces) StdoutLine: {'line': b'-- Installing: /home/user/ros2_ws/install/custom_interfaces/local/lib/python3.10/dist-packages/custom_interfaces/_custom_interfaces_s.ep.rosidl_typesupport_c.c\n'}
+[47.825050] (custom_interfaces) StdoutLine: {'line': b'-- Installing: /home/user/ros2_ws/install/custom_interfaces/local/lib/python3.10/dist-packages/custom_interfaces/__init__.py\n'}
+[47.825145] (custom_interfaces) StdoutLine: {'line': b'-- Installing: /home/user/ros2_ws/install/custom_interfaces/local/lib/python3.10/dist-packages/custom_interfaces/custom_interfaces_s__rosidl_typesupport_c.cpython-310-x86_64-linux-gnu.so\n'}
+[47.825243] (custom_interfaces) StdoutLine: {'line': b'-- Installing: /home/user/ros2_ws/install/custom_interfaces/local/lib/python3.10/dist-packages/custom_interfaces/_custom_interfaces_s.ep.rosidl_typesupport_fastrtps_c.c\n'}
+[47.825327] (custom_interfaces) StdoutLine: {'line': b'-- Installing: /home/user/ros2_ws/install/custom_interfaces/local/lib/python3.10/dist-packages/custom_interfaces/custom_interfaces_s__rosidl_typesupport_fastrtps_c.cpython-310-x86_64-linux-gnu.so\n'}
+[47.825452] (custom_interfaces) StdoutLine: {'line': b'-- Installing: /home/user/ros2_ws/install/custom_interfaces/local/lib/python3.10/dist-packages/custom_interfaces/action\n'}
+[47.825561] (custom_interfaces) StdoutLine: {'line': b'-- Installing: /home/user/ros2_ws/install/custom_interfaces/local/lib/python3.10/dist-packages/custom_interfaces/action/_move.py\n'}
+[47.825653] (custom_interfaces) StdoutLine: {'line': b'-- Installing: /home/user/ros2_ws/install/custom_interfaces/local/lib/python3.10/dist-packages/custom_interfaces/action/__init__.py\n'}
+[47.825747] (custom_interfaces) StdoutLine: {'line': b'-- Installing: /home/user/ros2_ws/install/custom_interfaces/local/lib/python3.10/dist-packages/custom_interfaces/action/_move_s.c\n'}
+[47.847172] (-) TimerEvent: {}
+[47.903741] (custom_interfaces) StdoutLine: {'line': b"Listing '/home/user/ros2_ws/install/custom_interfaces/local/lib/python3.10/dist-packages/custom_interfaces'...\n"}
+[47.903978] (custom_interfaces) StdoutLine: {'line': b"Compiling '/home/user/ros2_ws/install/custom_interfaces/local/lib/python3.10/dist-packages/custom_interfaces/__init__.py'...\n"}
+[47.904099] (custom_interfaces) StdoutLine: {'line': b"Listing '/home/user/ros2_ws/install/custom_interfaces/local/lib/python3.10/dist-packages/custom_interfaces/action'...\n"}
+[47.904215] (custom_interfaces) StdoutLine: {'line': b"Compiling '/home/user/ros2_ws/install/custom_interfaces/local/lib/python3.10/dist-packages/custom_interfaces/action/__init__.py'...\n"}
+[47.904348] (custom_interfaces) StdoutLine: {'line': b"Compiling '/home/user/ros2_ws/install/custom_interfaces/local/lib/python3.10/dist-packages/custom_interfaces/action/_move.py'...\n"}
+[47.904465] (custom_interfaces) StdoutLine: {'line': b"Listing '/home/user/ros2_ws/install/custom_interfaces/local/lib/python3.10/dist-packages/custom_interfaces/msg'...\n"}
+[47.904568] (custom_interfaces) StdoutLine: {'line': b"Compiling '/home/user/ros2_ws/install/custom_interfaces/local/lib/python3.10/dist-packages/custom_interfaces/msg/__init__.py'...\n"}
+[47.904674] (custom_interfaces) StdoutLine: {'line': b"Compiling '/home/user/ros2_ws/install/custom_interfaces/local/lib/python3.10/dist-packages/custom_interfaces/msg/_age.py'...\n"}
+[47.904786] (custom_interfaces) StdoutLine: {'line': b"Compiling '/home/user/ros2_ws/install/custom_interfaces/local/lib/python3.10/dist-packages/custom_interfaces/msg/_rover_events.py'...\n"}
+[47.904913] (custom_interfaces) StdoutLine: {'line': b"Listing '/home/user/ros2_ws/install/custom_interfaces/local/lib/python3.10/dist-packages/custom_interfaces/srv'...\n"}
+[47.904990] (custom_interfaces) StdoutLine: {'line': b"Compiling '/home/user/ros2_ws/install/custom_interfaces/local/lib/python3.10/dist-packages/custom_interfaces/srv/__init__.py'...\n"}
+[47.905047] (custom_interfaces) StdoutLine: {'line': b"Compiling '/home/user/ros2_ws/install/custom_interfaces/local/lib/python3.10/dist-packages/custom_interfaces/srv/_my_custom_service_message.py'...\n"}
+[47.911471] (custom_interfaces) StdoutLine: {'line': b'-- Installing: /home/user/ros2_ws/install/custom_interfaces/local/lib/python3.10/dist-packages/custom_interfaces/custom_interfaces_s__rosidl_typesupport_fastrtps_c.cpython-310-x86_64-linux-gnu.so\n'}
+[47.912050] (custom_interfaces) StdoutLine: {'line': b'-- Set runtime path of "/home/user/ros2_ws/install/custom_interfaces/local/lib/python3.10/dist-packages/custom_interfaces/custom_interfaces_s__rosidl_typesupport_fastrtps_c.cpython-310-x86_64-linux-gnu.so" to ""\n'}
+[47.912903] (custom_interfaces) StdoutLine: {'line': b'-- Installing: /home/user/ros2_ws/install/custom_interfaces/local/lib/python3.10/dist-packages/custom_interfaces/custom_interfaces_s__rosidl_typesupport_introspection_c.cpython-310-x86_64-linux-gnu.so\n'}
+[47.913171] (custom_interfaces) StdoutLine: {'line': b'-- Set runtime path of "/home/user/ros2_ws/install/custom_interfaces/local/lib/python3.10/dist-packages/custom_interfaces/custom_interfaces_s__rosidl_typesupport_introspection_c.cpython-310-x86_64-linux-gnu.so" to ""\n'}
+[47.913297] (custom_interfaces) StdoutLine: {'line': b'-- Installing: /home/user/ros2_ws/install/custom_interfaces/local/lib/python3.10/dist-packages/custom_interfaces/custom_interfaces_s__rosidl_typesupport_c.cpython-310-x86_64-linux-gnu.so\n'}
+[47.913583] (custom_interfaces) StdoutLine: {'line': b'-- Set runtime path of "/home/user/ros2_ws/install/custom_interfaces/local/lib/python3.10/dist-packages/custom_interfaces/custom_interfaces_s__rosidl_typesupport_c.cpython-310-x86_64-linux-gnu.so" to ""\n'}
+[47.914016] (custom_interfaces) StdoutLine: {'line': b'-- Installing: /home/user/ros2_ws/install/custom_interfaces/lib/libcustom_interfaces__rosidl_generator_py.so\n'}
+[47.914276] (custom_interfaces) StdoutLine: {'line': b'-- Set runtime path of "/home/user/ros2_ws/install/custom_interfaces/lib/libcustom_interfaces__rosidl_generator_py.so" to ""\n'}
+[47.914527] (custom_interfaces) StdoutLine: {'line': b'-- Installing: /home/user/ros2_ws/install/custom_interfaces/share/custom_interfaces/msg/Age.idl\n'}
+[47.914716] (custom_interfaces) StdoutLine: {'line': b'-- Installing: /home/user/ros2_ws/install/custom_interfaces/share/custom_interfaces/srv/MyCustomServiceMessage.idl\n'}
+[47.928239] (custom_interfaces) StdoutLine: {'line': b'-- Installing: /home/user/ros2_ws/install/custom_interfaces/share/custom_interfaces/action/Move.idl\n'}
+[47.928646] (custom_interfaces) StdoutLine: {'line': b'-- Installing: /home/user/ros2_ws/install/custom_interfaces/share/custom_interfaces/msg/RoverEvents.idl\n'}
+[47.928762] (custom_interfaces) StdoutLine: {'line': b'-- Installing: /home/user/ros2_ws/install/custom_interfaces/share/custom_interfaces/msg/Age.msg\n'}
+[47.928871] (custom_interfaces) StdoutLine: {'line': b'-- Installing: /home/user/ros2_ws/install/custom_interfaces/share/custom_interfaces/srv/MyCustomServiceMessage.srv\n'}
+[47.928980] (custom_interfaces) StdoutLine: {'line': b'-- Installing: /home/user/ros2_ws/install/custom_interfaces/share/custom_interfaces/srv/MyCustomServiceMessage_Request.msg\n'}
+[47.929086] (custom_interfaces) StdoutLine: {'line': b'-- Installing: /home/user/ros2_ws/install/custom_interfaces/share/custom_interfaces/srv/MyCustomServiceMessage_Response.msg\n'}
+[47.929191] (custom_interfaces) StdoutLine: {'line': b'-- Installing: /home/user/ros2_ws/install/custom_interfaces/share/custom_interfaces/action/Move.action\n'}
+[47.929294] (custom_interfaces) StdoutLine: {'line': b'-- Installing: /home/user/ros2_ws/install/custom_interfaces/share/custom_interfaces/msg/RoverEvents.msg\n'}
+[47.929398] (custom_interfaces) StdoutLine: {'line': b'-- Installing: /home/user/ros2_ws/install/custom_interfaces/share/ament_index/resource_index/package_run_dependencies/custom_interfaces\n'}
+[47.929502] (custom_interfaces) StdoutLine: {'line': b'-- Installing: /home/user/ros2_ws/install/custom_interfaces/share/ament_index/resource_index/parent_prefix_path/custom_interfaces\n'}
+[47.929607] (custom_interfaces) StdoutLine: {'line': b'-- Installing: /home/user/ros2_ws/install/custom_interfaces/share/custom_interfaces/environment/ament_prefix_path.sh\n'}
+[47.929709] (custom_interfaces) StdoutLine: {'line': b'-- Installing: /home/user/ros2_ws/install/custom_interfaces/share/custom_interfaces/environment/ament_prefix_path.dsv\n'}
+[47.929823] (custom_interfaces) StdoutLine: {'line': b'-- Installing: /home/user/ros2_ws/install/custom_interfaces/share/custom_interfaces/environment/path.sh\n'}
+[47.929927] (custom_interfaces) StdoutLine: {'line': b'-- Installing: /home/user/ros2_ws/install/custom_interfaces/share/custom_interfaces/environment/path.dsv\n'}
+[47.930031] (custom_interfaces) StdoutLine: {'line': b'-- Installing: /home/user/ros2_ws/install/custom_interfaces/share/custom_interfaces/local_setup.bash\n'}
+[47.930134] (custom_interfaces) StdoutLine: {'line': b'-- Installing: /home/user/ros2_ws/install/custom_interfaces/share/custom_interfaces/local_setup.sh\n'}
+[47.930236] (custom_interfaces) StdoutLine: {'line': b'-- Installing: /home/user/ros2_ws/install/custom_interfaces/share/custom_interfaces/local_setup.zsh\n'}
+[47.930338] (custom_interfaces) StdoutLine: {'line': b'-- Installing: /home/user/ros2_ws/install/custom_interfaces/share/custom_interfaces/local_setup.dsv\n'}
+[47.930446] (custom_interfaces) StdoutLine: {'line': b'-- Installing: /home/user/ros2_ws/install/custom_interfaces/share/custom_interfaces/package.dsv\n'}
+[47.930548] (custom_interfaces) StdoutLine: {'line': b'-- Installing: /home/user/ros2_ws/install/custom_interfaces/share/ament_index/resource_index/packages/custom_interfaces\n'}
+[47.930651] (custom_interfaces) StdoutLine: {'line': b'-- Installing: /home/user/ros2_ws/install/custom_interfaces/share/custom_interfaces/cmake/export_custom_interfaces__rosidl_generator_cExport.cmake\n'}
+[47.930754] (custom_interfaces) StdoutLine: {'line': b'-- Installing: /home/user/ros2_ws/install/custom_interfaces/share/custom_interfaces/cmake/export_custom_interfaces__rosidl_generator_cExport-noconfig.cmake\n'}
+[47.930860] (custom_interfaces) StdoutLine: {'line': b'-- Installing: /home/user/ros2_ws/install/custom_interfaces/share/custom_interfaces/cmake/export_custom_interfaces__rosidl_typesupport_fastrtps_cExport.cmake\n'}
+[47.930964] (custom_interfaces) StdoutLine: {'line': b'-- Installing: /home/user/ros2_ws/install/custom_interfaces/share/custom_interfaces/cmake/export_custom_interfaces__rosidl_typesupport_fastrtps_cExport-noconfig.cmake\n'}
+[47.931068] (custom_interfaces) StdoutLine: {'line': b'-- Installing: /home/user/ros2_ws/install/custom_interfaces/share/custom_interfaces/cmake/export_custom_interfaces__rosidl_generator_cppExport.cmake\n'}
+[47.931171] (custom_interfaces) StdoutLine: {'line': b'-- Installing: /home/user/ros2_ws/install/custom_interfaces/share/custom_interfaces/cmake/export_custom_interfaces__rosidl_typesupport_fastrtps_cppExport.cmake\n'}
+[47.931279] (custom_interfaces) StdoutLine: {'line': b'-- Installing: /home/user/ros2_ws/install/custom_interfaces/share/custom_interfaces/cmake/export_custom_interfaces__rosidl_typesupport_fastrtps_cppExport-noconfig.cmake\n'}
+[47.931393] (custom_interfaces) StdoutLine: {'line': b'-- Installing: /home/user/ros2_ws/install/custom_interfaces/share/custom_interfaces/cmake/custom_interfaces__rosidl_typesupport_introspection_cExport.cmake\n'}
+[47.931498] (custom_interfaces) StdoutLine: {'line': b'-- Installing: /home/user/ros2_ws/install/custom_interfaces/share/custom_interfaces/cmake/custom_interfaces__rosidl_typesupport_introspection_cExport-noconfig.cmake\n'}
+[47.931596] (custom_interfaces) StdoutLine: {'line': b'-- Installing: /home/user/ros2_ws/install/custom_interfaces/share/custom_interfaces/cmake/custom_interfaces__rosidl_typesupport_cExport.cmake\n'}
+[47.931700] (custom_interfaces) StdoutLine: {'line': b'-- Installing: /home/user/ros2_ws/install/custom_interfaces/share/custom_interfaces/cmake/custom_interfaces__rosidl_typesupport_cExport-noconfig.cmake\n'}
+[47.931809] (custom_interfaces) StdoutLine: {'line': b'-- Installing: /home/user/ros2_ws/install/custom_interfaces/share/custom_interfaces/cmake/custom_interfaces__rosidl_typesupport_introspection_cppExport.cmake\n'}
+[47.931933] (custom_interfaces) StdoutLine: {'line': b'-- Installing: /home/user/ros2_ws/install/custom_interfaces/share/custom_interfaces/cmake/custom_interfaces__rosidl_typesupport_introspection_cppExport-noconfig.cmake\n'}
+[47.932047] (custom_interfaces) StdoutLine: {'line': b'-- Installing: /home/user/ros2_ws/install/custom_interfaces/share/custom_interfaces/cmake/custom_interfaces__rosidl_typesupport_cppExport.cmake\n'}
+[47.932143] (custom_interfaces) StdoutLine: {'line': b'-- Installing: /home/user/ros2_ws/install/custom_interfaces/share/custom_interfaces/cmake/custom_interfaces__rosidl_typesupport_cppExport-noconfig.cmake\n'}
+[47.932239] (custom_interfaces) StdoutLine: {'line': b'-- Installing: /home/user/ros2_ws/install/custom_interfaces/share/custom_interfaces/cmake/export_custom_interfaces__rosidl_generator_pyExport.cmake\n'}
+[47.932321] (custom_interfaces) StdoutLine: {'line': b'-- Installing: /home/user/ros2_ws/install/custom_interfaces/share/custom_interfaces/cmake/export_custom_interfaces__rosidl_generator_pyExport-noconfig.cmake\n'}
+[47.952356] (custom_interfaces) StdoutLine: {'line': b'-- Installing: /home/user/ros2_ws/install/custom_interfaces/share/custom_interfaces/cmake/rosidl_cmake-extras.cmake\n'}
+[47.953183] (-) TimerEvent: {}
+[47.953324] (custom_interfaces) StdoutLine: {'line': b'-- Installing: /home/user/ros2_ws/install/custom_interfaces/share/custom_interfaces/cmake/ament_cmake_export_dependencies-extras.cmake\n'}
+[47.954249] (custom_interfaces) StdoutLine: {'line': b'-- Installing: /home/user/ros2_ws/install/custom_interfaces/share/custom_interfaces/cmake/ament_cmake_export_include_directories-extras.cmake\n'}
+[47.954383] (custom_interfaces) StdoutLine: {'line': b'-- Installing: /home/user/ros2_ws/install/custom_interfaces/share/custom_interfaces/cmake/ament_cmake_export_libraries-extras.cmake\n'}
+[47.954496] (custom_interfaces) StdoutLine: {'line': b'-- Installing: /home/user/ros2_ws/install/custom_interfaces/share/custom_interfaces/cmake/ament_cmake_export_targets-extras.cmake\n'}
+[47.954647] (custom_interfaces) StdoutLine: {'line': b'-- Installing: /home/user/ros2_ws/install/custom_interfaces/share/custom_interfaces/cmake/rosidl_cmake_export_typesupport_targets-extras.cmake\n'}
+[47.954738] (custom_interfaces) StdoutLine: {'line': b'-- Installing: /home/user/ros2_ws/install/custom_interfaces/share/custom_interfaces/cmake/rosidl_cmake_export_typesupport_libraries-extras.cmake\n'}
+[47.954827] (custom_interfaces) StdoutLine: {'line': b'-- Installing: /home/user/ros2_ws/install/custom_interfaces/share/custom_interfaces/cmake/custom_interfacesConfig.cmake\n'}
+[47.954996] (custom_interfaces) StdoutLine: {'line': b'-- Installing: /home/user/ros2_ws/install/custom_interfaces/share/custom_interfaces/cmake/custom_interfacesConfig-version.cmake\n'}
+[47.955103] (custom_interfaces) StdoutLine: {'line': b'-- Installing: /home/user/ros2_ws/install/custom_interfaces/share/custom_interfaces/package.xml\n'}
+[47.955208] (custom_interfaces) CommandEnded: {'returncode': 0}
+[48.053301] (-) TimerEvent: {}
+[48.153681] (-) TimerEvent: {}
+[48.254050] (-) TimerEvent: {}
+[48.354441] (-) TimerEvent: {}
+[48.398061] (custom_interfaces) JobEnded: {'identifier': 'custom_interfaces', 'rc': 0}
+[48.399183] (-) EventReactorShutdown: {}

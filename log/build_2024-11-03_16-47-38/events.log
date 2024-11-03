@@ -1,0 +1,67 @@
+[0.000000] (-) TimerEvent: {}
+[0.000896] (-) JobUnselected: {'identifier': 'actions_quiz'}
+[0.000961] (-) JobUnselected: {'identifier': 'actions_quiz_msg'}
+[0.000996] (-) JobUnselected: {'identifier': 'basics_ros2_multithreading'}
+[0.001026] (-) JobUnselected: {'identifier': 'client_pkg'}
+[0.001056] (-) JobUnselected: {'identifier': 'custom_interfaces'}
+[0.001085] (-) JobUnselected: {'identifier': 'example36_pkg'}
+[0.001135] (-) JobUnselected: {'identifier': 'exercise31_pkg'}
+[0.001175] (-) JobUnselected: {'identifier': 'exercise42_pkg'}
+[0.001211] (-) JobUnselected: {'identifier': 'logs_test'}
+[0.001253] (-) JobUnselected: {'identifier': 'movement_pkg'}
+[0.001286] (-) JobUnselected: {'identifier': 'my_action_client'}
+[0.001315] (-) JobUnselected: {'identifier': 'my_action_server'}
+[0.001367] (-) JobUnselected: {'identifier': 'my_package'}
+[0.001401] (-) JobUnselected: {'identifier': 'publisher_pkg'}
+[0.002073] (-) JobUnselected: {'identifier': 'services_quiz'}
+[0.002129] (-) JobUnselected: {'identifier': 'services_quiz_srv'}
+[0.002165] (-) JobUnselected: {'identifier': 'subscriber_pkg'}
+[0.002199] (-) JobUnselected: {'identifier': 'topics_quiz'}
+[0.002241] (mars_rover_tasks) JobQueued: {'identifier': 'mars_rover_tasks', 'dependencies': OrderedDict()}
+[0.002280] (mars_rover_tasks) JobStarted: {'identifier': 'mars_rover_tasks'}
+[0.100341] (-) TimerEvent: {}
+[0.200718] (-) TimerEvent: {}
+[0.301063] (-) TimerEvent: {}
+[0.401437] (-) TimerEvent: {}
+[0.501809] (-) TimerEvent: {}
+[0.602170] (-) TimerEvent: {}
+[0.702649] (-) TimerEvent: {}
+[0.803029] (-) TimerEvent: {}
+[0.903394] (-) TimerEvent: {}
+[1.003859] (-) TimerEvent: {}
+[1.104222] (-) TimerEvent: {}
+[1.184394] (mars_rover_tasks) Command: {'cmd': ['/usr/bin/python3', '-W', 'ignore:setup.py install is deprecated', 'setup.py', 'egg_info', '--egg-base', '../../build/mars_rover_tasks', 'build', '--build-base', '/home/user/ros2_ws/build/mars_rover_tasks/build', 'install', '--record', '/home/user/ros2_ws/build/mars_rover_tasks/install.log', '--single-version-externally-managed', 'install_data'], 'cwd': '/home/user/ros2_ws/src/mars_rover_tasks', 'env': {'ROS_VERSION': '2', 'NVIDIA_VISIBLE_DEVICES': 'all', 'GAZEBO_MASTER_URI': 'http://2_simulation:11345', 'PKG_CONFIG_PATH': ':/opt/ros/humble/lib/pkgconfig:/opt/ros/humble/lib/x86_64-linux-gnu/pkgconfig:/opt/ros/humble/lib/pkgconfig:/opt/ros/humble/lib/x86_64-linux-gnu/pkgconfig', 'ROS_PYTHON_VERSION': '3', 'HOSTNAME': '2_xterm', 'PWD': '/home/user/ros2_ws/build/mars_rover_tasks', 'PORT': '4000', 'NVIDIA_DRIVER_CAPABILITIES': 'all', 'ROS_IP': '', 'HOME': '/home/user', 'GAZEBO_PLUGIN_PATH': '/usr/lib/x86_64-linux-gnu/gazebo-11/plugins:/usr/lib/x86_64-linux-gnu/gazebo-11/plugins:', 'LANG': 'en_US.UTF-8', 'GAZEBO_MODEL_DATABASE_URI': 'http://models.gazebosim.org', 'LS_COLORS': 'rs=0:di=01;34:ln=01;36:mh=00:pi=40;33:so=01;35:do=01;35:bd=40;33;01:cd=40;33;01:or=40;31;01:mi=00:su=37;41:sg=30;43:ca=30;41:tw=30;42:ow=34;42:st=37;44:ex=01;32:*.tar=01;31:*.tgz=01;31:*.arc=01;31:*.arj=01;31:*.taz=01;31:*.lha=01;31:*.lz4=01;31:*.lzh=01;31:*.lzma=01;31:*.tlz=01;31:*.txz=01;31:*.tzo=01;31:*.t7z=01;31:*.zip=01;31:*.z=01;31:*.dz=01;31:*.gz=01;31:*.lrz=01;31:*.lz=01;31:*.lzo=01;31:*.xz=01;31:*.zst=01;31:*.tzst=01;31:*.bz2=01;31:*.bz=01;31:*.tbz=01;31:*.tbz2=01;31:*.tz=01;31:*.deb=01;31:*.rpm=01;31:*.jar=01;31:*.war=01;31:*.ear=01;31:*.sar=01;31:*.rar=01;31:*.alz=01;31:*.ace=01;31:*.zoo=01;31:*.cpio=01;31:*.7z=01;31:*.rz=01;31:*.cab=01;31:*.wim=01;31:*.swm=01;31:*.dwm=01;31:*.esd=01;31:*.jpg=01;35:*.jpeg=01;35:*.mjpg=01;35:*.mjpeg=01;35:*.gif=01;35:*.bmp=01;35:*.pbm=01;35:*.pgm=01;35:*.ppm=01;35:*.tga=01;35:*.xbm=01;35:*.xpm=01;35:*.tif=01;35:*.tiff=01;35:*.png=01;35:*.svg=01;35:*.svgz=01;35:*.mng=01;35:*.pcx=01;35:*.mov=01;35:*.mpg=01;35:*.mpeg=01;35:*.m2v=01;35:*.mkv=01;35:*.webm=01;35:*.webp=01;35:*.ogm=01;35:*.mp4=01;35:*.m4v=01;35:*.mp4v=01;35:*.vob=01;35:*.qt=01;35:*.nuv=01;35:*.wmv=01;35:*.asf=01;35:*.rm=01;35:*.rmvb=01;35:*.flc=01;35:*.avi=01;35:*.fli=01;35:*.flv=01;35:*.gl=01;35:*.dl=01;35:*.xcf=01;35:*.xwd=01;35:*.yuv=01;35:*.cgm=01;35:*.emf=01;35:*.ogv=01;35:*.ogx=01;35:*.aac=00;36:*.au=00;36:*.flac=00;36:*.m4a=00;36:*.mid=00;36:*.midi=00;36:*.mka=00;36:*.mp3=00;36:*.mpc=00;36:*.ogg=00;36:*.ra=00;36:*.wav=00;36:*.oga=00;36:*.opus=00;36:*.spx=00;36:*.xspf=00;36:', 'AMENT_PREFIX_PATH': '/opt/ros/humble', 'CMAKE_PREFIX_PATH': ':/opt/ros/humble:/opt/ros/humble', 'GAZEBO_RESOURCE_PATH': '/usr/share/gazebo-11:/usr/share/gazebo-11:/usr/share/gazebo', 'GAZEBO_MASTER_PORT': '11345', 'NVM_DIR': '/usr/local/share/shell/.nvm', 'LESSCLOSE': '/usr/bin/lesspipe %s %s', 'PYTHONPATH': '/home/user/ros2_ws/build/mars_rover_tasks/prefix_override:/home/user/ros2_ws/install/mars_rover_tasks/lib/python3.10/site-packages:/opt/ros/humble/lib/python3.10/site-packages:/opt/ros/humble/local/lib/python3.10/dist-packages:/home/simulations/public_sim_ws/src/all/ros_basics_examples/python_course_class:/home/simulations/public_sim_ws/src/ros_basics_examples/python_course_class:/home/simulations/public_sim_ws/src/all/kinematics_course_utils/kinematics', 'COLCON': '1', 'TERM': 'xterm-color', 'LESSOPEN': '| /usr/bin/lesspipe %s', 'SNAPCRAFT_BUILD_ENVIRONMENT': 'host', 'GAZEBO_MASTER_HOSTNAME': '2_simulation', 'DISPLAY': ':1', 'SHLVL': '2', 'NVM_CD_FLAGS': '', 'ROS_MASTER_URI': 'http://2_simulation:11311', 'ROS_HOSTNAME': '2_xterm', 'LD_LIBRARY_PATH': '/home/user/catkin_ws/devel/lib:/home/simulations/public_sim_ws/devel/lib:/opt/ros/humble/lib:/opt/ros/humble/lib/x86_64-linux-gnu:/usr/local/cuda-10.2/lib64:/home/user/.catkin_ws_python3/src/TensorRT-7.0.0.11/lib:/home/user/catkin_ws/devel/lib:/home/simulations/public_sim_ws/devel/lib:/opt/ros/humble/lib:/opt/ros/humble/lib/x86_64-linux-gnu:/opt/ros/humble/opt/rviz_ogre_vendor/lib:/opt/ros/humble/lib/x86_64-linux-gnu:/opt/ros/humble/lib:/usr/local/cuda-10.2/lib64:/home/user/.catkin_ws_python3/src/TensorRT-7.0.0.11/lib::/usr/lib/x86_64-linux-gnu/gazebo-11/plugins::/usr/lib/x86_64-linux-gnu/gazebo-11/plugins:/usr/lib/x86_64-linux-gnu/gazebo-11/plugins:', 'ROS_LOCALHOST_ONLY': '0', 'SLOT_SHELL_START_ID': '0', 'SLOT_PREFIX': 'e1a39ae2-1c27-4135-a9df-a681ef511752', 'LC_ALL': 'C', 'SOURCE_ROS1_WS': 'True', 'GAZEBO_MODEL_PATH': '/usr/share/gazebo-11/models:/usr/share/gazebo-11/models:/usr/share/gazebo-9/models:/usr/share/gazebo/models_robox', 'SLOT_JENKINS_PORT': '25344', 'SLOT_SYSTEMD': 'False', 'PATH': '/opt/ros/humble/bin:/opt/ros/humble/bin:/opt/ros/humble/bin:/usr/local/share/shell/.nvm/versions/node/v8.17.0/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin:/home/user/.cargo/bin:/home/user/.cargo/bin', 'SELECTED_ROS_DISTRO': 'humble', 'NVM_BIN': '/usr/local/share/shell/.nvm/versions/node/v8.17.0/bin', 'NODE_VERSION': 'v8.17.0', 'DEBIAN_FRONTEND': 'noninteractive', 'ROS_DISTRO': 'humble', 'GAZEBO_VERBOSE': '0', 'OGRE_RESOURCE_PATH': '/usr/lib/x86_64-linux-gnu/OGRE-1.9.0', 'OLDPWD': '/home/user/ros2_ws', 'SOURCE_ROS2_WS': '', 'SLOT_ROSBRIDGE_PORT': '20002', '_': '/usr/bin/env'}, 'shell': False}
+[1.204302] (-) TimerEvent: {}
+[1.304811] (-) TimerEvent: {}
+[1.405689] (-) TimerEvent: {}
+[1.507154] (-) TimerEvent: {}
+[1.607516] (-) TimerEvent: {}
+[1.611913] (mars_rover_tasks) StdoutLine: {'line': b'running egg_info\n'}
+[1.614670] (mars_rover_tasks) StdoutLine: {'line': b'writing ../../build/mars_rover_tasks/mars_rover_tasks.egg-info/PKG-INFO\n'}
+[1.614968] (mars_rover_tasks) StdoutLine: {'line': b'writing dependency_links to ../../build/mars_rover_tasks/mars_rover_tasks.egg-info/dependency_links.txt\n'}
+[1.615163] (mars_rover_tasks) StdoutLine: {'line': b'writing entry points to ../../build/mars_rover_tasks/mars_rover_tasks.egg-info/entry_points.txt\n'}
+[1.615365] (mars_rover_tasks) StdoutLine: {'line': b'writing requirements to ../../build/mars_rover_tasks/mars_rover_tasks.egg-info/requires.txt\n'}
+[1.615508] (mars_rover_tasks) StdoutLine: {'line': b'writing top-level names to ../../build/mars_rover_tasks/mars_rover_tasks.egg-info/top_level.txt\n'}
+[1.617776] (mars_rover_tasks) StdoutLine: {'line': b"reading manifest file '../../build/mars_rover_tasks/mars_rover_tasks.egg-info/SOURCES.txt'\n"}
+[1.618678] (mars_rover_tasks) StdoutLine: {'line': b"writing manifest file '../../build/mars_rover_tasks/mars_rover_tasks.egg-info/SOURCES.txt'\n"}
+[1.618922] (mars_rover_tasks) StdoutLine: {'line': b'running build\n'}
+[1.619058] (mars_rover_tasks) StdoutLine: {'line': b'running build_py\n'}
+[1.619270] (mars_rover_tasks) StdoutLine: {'line': b'copying mars_rover_tasks/plant_detector_node.py -> /home/user/ros2_ws/build/mars_rover_tasks/build/lib/mars_rover_tasks\n'}
+[1.619803] (mars_rover_tasks) StdoutLine: {'line': b'running install\n'}
+[1.620278] (mars_rover_tasks) StdoutLine: {'line': b'running install_lib\n'}
+[1.621188] (mars_rover_tasks) StdoutLine: {'line': b'copying /home/user/ros2_ws/build/mars_rover_tasks/build/lib/mars_rover_tasks/plant_detector_node.py -> /home/user/ros2_ws/install/mars_rover_tasks/lib/python3.10/site-packages/mars_rover_tasks\n'}
+[1.622073] (mars_rover_tasks) StdoutLine: {'line': b'byte-compiling /home/user/ros2_ws/install/mars_rover_tasks/lib/python3.10/site-packages/mars_rover_tasks/plant_detector_node.py to plant_detector_node.cpython-310.pyc\n'}
+[1.623323] (mars_rover_tasks) StdoutLine: {'line': b'running install_data\n'}
+[1.623890] (mars_rover_tasks) StdoutLine: {'line': b'running install_egg_info\n'}
+[1.626571] (mars_rover_tasks) StdoutLine: {'line': b"removing '/home/user/ros2_ws/install/mars_rover_tasks/lib/python3.10/site-packages/mars_rover_tasks-0.0.0-py3.10.egg-info' (and everything under it)\n"}
+[1.627118] (mars_rover_tasks) StdoutLine: {'line': b'Copying ../../build/mars_rover_tasks/mars_rover_tasks.egg-info to /home/user/ros2_ws/install/mars_rover_tasks/lib/python3.10/site-packages/mars_rover_tasks-0.0.0-py3.10.egg-info\n'}
+[1.628639] (mars_rover_tasks) StdoutLine: {'line': b'running install_scripts\n'}
+[1.657778] (mars_rover_tasks) StdoutLine: {'line': b'Installing autonomous_exploration_executable script to /home/user/ros2_ws/install/mars_rover_tasks/lib/mars_rover_tasks\n'}
+[1.658076] (mars_rover_tasks) StdoutLine: {'line': b'Installing image_plant_detector_executable script to /home/user/ros2_ws/install/mars_rover_tasks/lib/mars_rover_tasks\n'}
+[1.658249] (mars_rover_tasks) StdoutLine: {'line': b'Installing publish_mars_rover_move_executable script to /home/user/ros2_ws/install/mars_rover_tasks/lib/mars_rover_tasks\n'}
+[1.658439] (mars_rover_tasks) StdoutLine: {'line': b'Installing subscriber_obstacle_detector_executable script to /home/user/ros2_ws/install/mars_rover_tasks/lib/mars_rover_tasks\n'}
+[1.658726] (mars_rover_tasks) StdoutLine: {'line': b"writing list of installed files to '/home/user/ros2_ws/build/mars_rover_tasks/install.log'\n"}
+[1.691660] (mars_rover_tasks) CommandEnded: {'returncode': 0}
+[1.709953] (-) TimerEvent: {}
+[1.710143] (mars_rover_tasks) JobEnded: {'identifier': 'mars_rover_tasks', 'rc': 0}
+[1.711178] (-) EventReactorShutdown: {}
